@@ -1,8 +1,8 @@
 # Site
-title:             Daniel P. 
+title:             
 bio:               "Parkour guy, traveler, couchpotato" 
         #'Minimal, one column jekyll theme.'
-description:       "My name is Daniel and in this blog I will share my parkour journey, some multimedia content, random thoughts and stuff I think it is interesting "
+description:       "My name is Daniel and this is my blog "
         #"Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
@@ -39,21 +39,21 @@ sass:
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+instagram:          daleonpzinst
+youtube:           daleonpz
+email:              daleonpz@gmail.com
 #twitter:            username
-facebook:           username
-github:             daleonpz
+#facebook:           username
+#github:             daleonpz
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          daleonpzinst
 #lastfm:            username
 #tumblr:            username
 #pinterest:         username
 #foursquare:        username
 #steam:              username
 #dribbble:          username
-#youtube:           username
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
