@@ -1,7 +1,9 @@
 # Site
-title:              Moon
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:             Daniel P. 
+bio:               "Parkour guy, traveler, couchpotato" 
+        #'Minimal, one column jekyll theme.'
+description:       "My name is Daniel and in this blog I will share my parkour journey, some multimedia content, random thoughts and stuff I think it is interesting "
+        #"Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
