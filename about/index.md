@@ -1,25 +1,21 @@
 ---
 layout: page
-title: About the Theme
+title: About 
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+[//]:  <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center>My name is Daniel and parkour has become my lifestyle. In this blog I will write about my parkour journey or any other thing I will find interesting. If you want to say hi just send me an email, all the links are in the <b>Contact</b> section below.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
 
+## Contact
+* <a href="mailto:{{ site.email }}?subject=[Blog]%20Hello%20Daniel">E-mail</a>
+* [Instagram](https://www.instagram.com/daleonpzinst/)
+* [Youtube](https://www.youtube.com/user/daleonpz)
+
+{% comment %}
 ## Preview
 
 {% capture images %}
@@ -35,3 +31,5 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
 [Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+
+{% endcomment %}
