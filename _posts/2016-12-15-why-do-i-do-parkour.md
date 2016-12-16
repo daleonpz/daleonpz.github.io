@@ -29,7 +29,7 @@ I kept watching the TV show "Fight Science", by the way the guys that performed 
 
 ## Act 4:
 From every jump I did, every fear I overcame and every person I met, I developed my own understanding about life and, most important, myself. 
-I was able to face myself. When everything was dark and you was alone and started listening to your own thoughts, and you felt fear of them, in that moment, I chose to accept my past, accept my self-destructive tendency and accept that shit happens but above all things, I realized that when you are in the bottom of the hole, you have two options: climb it  or die, so I chose to climb it. 
+I was able to face myself. When everything was dark and you were alone and started listening to your own thoughts, and you felt fear of them, in that moment, I chose to accept my past, accept my self-destructive tendency and accept that shit happens but above all things, I realized that when you are in the bottom of the hole, you have two options: climb it  or die, so I chose to climb it. 
 
 Now I am in peace with me, my self-esteem have improved a lot,  and I am not afraid of being hurt, because if something ever happen I just need to overcome that obstacle. 
 I learned from parkour that every obstacle is a reflection of you and only you have the power to jump over and keep going forward . 
