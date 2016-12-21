@@ -23,10 +23,35 @@ He showed us some spots, we couldn't train because we were in our worst conditio
 
 In the afternoon we went to the "maze" to rest a little bit and had a light training session. Raymond, a friend of Tony was waiting for us there. Later, in the evening, after "suffered" the whole day, we bought something for dinner and Tony took us to a rooftop. 
 
+<figure class="half">
+	<a href="/images/posts/rooftopping-hk-1.jpg"><img src="/images/posts/rooftopping-hk-1.jpg"></a>
+	<a href="/images/posts/rooftopping-hk-2.jpg"><img src="/images/posts/rooftopping-hk-2.jpg"></a>
+	<figcaption>Left: walking around Mongkok. Right: At the "maze". (from left to right) Tony, me, Raymond and Franco. </figcaption>
+</figure>
+
+This one was my first going really high, maybe +15 floors, in Lima I've been in rooftop of five floors high max.
+We went to rooftop of a mall near the "maze". It was a easy one since the access wasn't under survillance we just went by stairs. 
+When we reached the rooftop, my first thought was "wow... everything is so small and it is so fresh here". 
+I have to say that I was impressed. 
+Even though, Hong Kong is really crowed, from that height, the city felt as it was empty. 
+
+
+The first minutes I walked near the edge to warm up my mind, that height was frightening.
+Once I got used to the idea of just sitting on the egde, I did it slowly. 
+The first step was to sit two meters away from the edge and then started to get closer, the closer I got the faster my heartbeating was. 
+I was so focused on my breathing, my heartbeating and what I wan doing that I didn't have time to think about how "crazy" was the thing I was about to do. 
+It took me maybe one minute or less, but it felt like an eternity, to reach the edge with my legs. 
+The moment I realized that I actually made it, it felt as the ground was pulling me.
+ The sensation that you were about falling was not funny at lot, but at the same time I encouraged myself to keep the mind clear.
+At the end, I was able to sit on the edge and enjoy the view. 
+
+
 <figure>
-	<a href="/images/posts/yamak.jpg"><img src="/images/posts/yamak.jpg"></a>
-	<figcaption>.</figcaption>
+	<a href="/images/posts/rooftopping-hk-3.jpg"><img src="/images/posts/rooftopping-hk-3.jpg"></a>
+	<figcaption>First rooftop in Hong Kong.</figcaption>
 </figure>
 
 
-
+A couple of minutes later, I stood up on the edge without hesitation and while I was contemplating city I felt so alive and free. 
+It was an amazing experience, standing on the edge of that rooftop made thing about how small the humans are, how insignifcant our problems are, and how impressive is the world we, as species, created.
+ In general, this world and our lives are an adventure itself. You never know where you will end up. 
