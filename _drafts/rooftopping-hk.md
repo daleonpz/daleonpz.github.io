@@ -32,15 +32,15 @@ In the afternoon we went to the "maze" to rest a little bit and have a light tra
 I was very excited about going up there. 
 It was my first time in a high place, maybe +15 floors, in Lima I've been in rooftops of five floors high max.
 The chosen place was the rooftop of a mall near the "maze". 
-Since the access wasn't under surviellance we just went by stairs. 
+Since the access wasn't under surveillance we just went by stairs. 
 When we reached the rooftop, my first thought was "wow... everything looks so small and it is so fresh here", and I have to say that I view was impressive. 
 Even though, Hong Kong is really crowed, from that height, the city felt as it was empty. 
 
 
 The first few minutes I walked near the edge to warm up my mind, that height was frightening.
-Once I got used to the idea of just sitting on the egde, I start doing it slowly. 
-The first step was to sit two meters away from the edge and get closer from there, the closer I was the faster my heartbeating was. 
-I was so focused on my breathing, my heartbeating and what I wan doing that I didn't have time to think about how "crazy" was the thing I was about to do. 
+Once I got used to the idea of just sitting on the edge, I start doing it slowly. 
+The first step was to sit two meters away from the edge and get closer from there, the closer I was the faster my heart beating was. 
+I was so focused on my breathing, my heart beating and what I wan doing that I didn't have time to think about how "crazy" was the thing I was about to do. 
 It took me maybe one minute or less, but it felt like an eternity, to reach the edge with my legs. 
 The moment I realized that I actually made it and it felt as the ground was pulling me.
  The sensation that you were about falling was not funny at lot, but at the same time I encouraged myself to use that fear in my favor in order to keep the mind clear.
@@ -54,5 +54,5 @@ At the end, I was able to sit on the edge and enjoy the view.
 
 
 A couple of minutes later, I stood up on the edge without hesitation and while I was contemplating city I felt alive and free. 
-It was an amazing experience, standing on the edge of that rooftop made me think about how small the humans and insignifcant our problems are, and how impressive is the world we, as species, created.
+It was an amazing experience, standing on the edge of that rooftop made me think about how small the humans and insignificant our problems are, and how impressive is the world we, as species, created.
  In general, this world and our lives are an adventure itself. You never know where you will end up. 
