@@ -40,7 +40,7 @@ Even though, Hong Kong is really crowed, from that height, the city felt as it w
 The first few minutes I walked near the edge to warm up my mind, that height was frightening.
 Once I got used to the idea of just sitting on the edge, I start doing it slowly. 
 The first step was to sit two meters away from the edge and get closer from there, the closer I was the faster my heart beating was. 
-I was so focused on my breathing, my heart beating and what I wan doing that I didn't have time to think about how "crazy" was the thing I was about to do. 
+I was so focused on my breathing, my heart beating and what I was doing that I didn't have time to think about how "crazy" was the thing I was about to do. 
 It took me maybe one minute or less, but it felt like an eternity, to reach the edge with my legs. 
 The moment I realized that I actually made it and it felt as the ground was pulling me.
  The sensation that you were about falling was not funny at lot, but at the same time I encouraged myself to use that fear in my favor in order to keep the mind clear.
