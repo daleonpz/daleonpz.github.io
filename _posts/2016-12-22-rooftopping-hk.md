@@ -43,7 +43,7 @@ The first step was to sit two meters away from the edge and get closer from ther
 I was so focused on my breathing, my heart beating and what I was doing that I didn't have time to think about how "crazy" was the thing I was about to do. 
 It took me maybe one minute or less, but it felt like an eternity, to reach the edge with my legs. 
 The moment I realized that I actually made it and it felt as the ground was pulling me.
- The sensation that you were about to fall was not funny at lot, but at the same time I encouraged myself to use that fear in my favor in order to keep the mind clear.
+ The sensation that you were about to fall was not funny at all, but at the same time I encouraged myself to use that fear in my favor in order to keep the mind clear.
 At the end, I was able to sit on the edge and enjoy the view. 
 
 
