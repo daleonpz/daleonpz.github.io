@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: "Rooftopping Hong Kong"
-date: 2016-12-20
+date: 2016-12-22
 excerpt: "First time rooftopping"
 tag: 
 - rooftop
