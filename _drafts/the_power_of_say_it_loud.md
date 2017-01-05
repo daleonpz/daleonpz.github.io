@@ -19,11 +19,14 @@ It's okay to have fear and to have some doubts, because it is a new experience.
 Fear is not bad, it makes you think about whether you are aware of what you are about to do.
 However, it is up to you how to deal with fear. 
 
-Everytime I face an uncomfortable and scary situation, but I know that it is doable, and these negative thoughts start messing up my mind and focus.
+Everytime I face an uncomfortable and/or scary situation, but I know that it is doable at my current level, these negative thoughts start messing up my mind and focus.
 I say <b>"que paja debe sentirse lograr esto"</b>, in english it will be  "It will feel so cool to make this jump".
-I say it loud and clear to counter this negative thoughts, and the more I say it the more confident and calm I feel.
-After a moment, I start  smiling and I feel how the energy and power is flowing throught my body, and this is where everything  happens.
+I say it loud and clear to counter the negative thoughts, and the more I say it the more confident and calm I feel.
+After a moment, I start  smiling and I feel how the energy and power is flowing throught my body, and this is when everything  happens.
 I prepared myself for the jump and go for it 100 percent.
 
 
-Once you made it, you realized that it wasn't a big deal 
+Once you made it, you realized that it wasn't a big deal.
+Everything was in your mind. 
+Of course, you always wish that these kind of fears won't ever happen. On the other hand, this kind of feeling makes you feel alive.
+So, whenever you face any type of challenge, mental or physical, reminder yourself why you wanted to do it, and how incredible it is to achieve your goals.
