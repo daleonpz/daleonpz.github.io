@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The power of Say it loud"
-date: 2016-12-29
+date: 2017-01-09
 excerpt: "When you have unpleasant or negative thoughts, say something positive loud and clear will change your game."
 tags: [commitment, fear, positive attitude]
 ---
