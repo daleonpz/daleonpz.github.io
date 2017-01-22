@@ -42,6 +42,8 @@ The next step is to stand without moving at all and breath.
 And finally, the last step is to run with all I got, each stride must carry all the weight of the decision I made. 
 Of course, this methods works because I am stubborn and headstrong once I decided something. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wedSSoeLRJE" frameborder="0"></iframe>
+
 As conclusion, anxiety sucks and it is very common, but it is manageable. My advice is to try to live more in the present. 
 It is cliché, but it is real. At least, it is what I learned thanks to parkour. 
 
