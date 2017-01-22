@@ -7,21 +7,21 @@ tags: [commitment,  positive attitude, anxiety]
 ---
 
 For the last two or three days something was messing up my mind.
-It kept me wake up nights.
+It kept me wake up at nights.
 The peak was last night, I couldn't handle it anymore.
 My confidence was low, I was angry and frustrated.
 Usually, I deal quite well negative thoughts but sometimes it just sucks.
 
 
-Last night I was so depressed and anxious that I had to talk to a friend to release these emotions.
+Last night I was so frustrated and anxious that I had to talk to a friend to release these emotions.
 It was a cathartic for me to talk with her.
 After that talk I stared at the ceiling and thought about the cause of my bad mood and anxiety.
 The answer was very simple...
 
 Overall, I am anxious and nervous. 
 I have improved, but I am still having a hard time  dealing with those feelings, and as it is expected I face very often uncomfortable situations at work, with my friends, and, of course, when training. 
-In the latter case, it is quiet easy to trigger the anxiety, because it is probable to ask "what will happen if...".
-Specially when it is the first time doing a jump.
+In the latter case, it is quiet easy to trigger the anxiety, because very often an obstacle makes you  ask "what will happen if...".
+Specially when it is the first time doing the jump.
 It is very common that before my training sessions I set some goals, and I work on the drills to achieve them.
 However, even if I make the jump without problems I start to become anxious with no apparent reason.
 It was what I thought.
@@ -29,9 +29,9 @@ It was what I thought.
 When training, the anxiety manifests with excessive hand sweating, hyperventilation, increasing of my heart rate, and me moving a lot before my run ups.
 I did my research and I found that by good breathing techniques I could be able to manage my anxiety, somehow.
 Thus, I learned how to control my breathing and relax. 
-It helped me a lot, I recommend to read these books if you just want to know some basic stuff: The Oxygen Advantage by Patrick McKeown and Breatheology: The Art of Conscious Breathing by Stig Severinsen. 
+It helped me a lot, I recommend to read these books if you just want to know some basic stuff: "The Oxygen Advantage" by Patrick McKeown and "Breatheology: The Art of Conscious Breathing" by Stig Severinsen. 
 
-But, there is always a but, even though controlling my breath just helped me with the symptoms, the root cause of my problem was still unknown.
+But, there is always a but, even though controlling my breath helped me with the symptoms, the root cause of my problem was still unknown.
 After my cathartic talk with my friend I thought about this issue I came to the realization that I spent too much time thinking in the future  and not living the present.
 In other words, my mind was full of useless stuff instead of being empty.
 The big question now was "How to apply that concept into my daily practice?".
