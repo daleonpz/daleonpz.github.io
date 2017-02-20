@@ -1,10 +1,34 @@
 ---
 layout: post
-title: "Effort and believe"
+title: "It is about discipline and believe"
 date: 2017-02-16
-excerpt: "All the effort is pointless if you don't believe in yourself."
-tags: [sample post, images, test]
+excerpt: "Hard work pays off."
+tags: [discipline, hard work, believe]
 ---
+
+Sakaki Shio (Shijō Saikyō no Deshi - Kenichi):
+:  "When you are afraid, just train"  
+:  "When something doesn't feel right, just train"  
+:  "When you don't believe in yourself anymore, just train"  
+:  "The only thing that won't betray is your training"
+
+-----
+
+Migth Guy ("Naruto")
+:  "All the effort is pointless if you don't believe in yourself."
+
+-----
+
+Jocko Willink:
+:  "Discipline equals freedom"
+
+-----
+
+All these quotes
+the only person you can control, it's you... focus on making yourself better
+
+
+ 
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
 
