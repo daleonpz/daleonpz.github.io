@@ -198,7 +198,7 @@ short_ifswitch:
 	.cfi_endproc
 ```
 
-Of course the compiler will not generated the exact same code, but they are quite similar. Both of them are decoded as a combination of conditional jumps.
+Of course the compiler will not generated the exact same code for `short_ifswitch`, but they are quite similar. Both of them are decoded as a combination of conditional jumps.
 
 ## Conclusion
 If your have several choices `switch` statements are the way to go. But for a small set of choices it's better, most of the time, to use `if-else` statements. In either case, for low level optimizations, always, check the assembly code by using either the `gdb` or `objdump -D`. 
