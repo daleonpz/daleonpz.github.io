@@ -15,7 +15,15 @@ This is how you **bold** & *italicize* text.
 
 Here is some `inline code`.
 
-```
+Here some code with line numbers
+{% highlight c linenos %}
+blockCode() {
+	return true;
+}
+{% endhighlight %}
+
+some code :
+```c
 blockCode() {
 	return true;
 }
