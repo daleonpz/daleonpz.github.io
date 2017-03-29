@@ -7,7 +7,7 @@ In college I asked this all the time, specially when there were a small set of c
 
 I did a test compiling `gcc` with `-S` to get the assembly code:
 
-In the red corner we have switch statement with _several_ entries:
+In the red corner we have a switch statement with _several_ entries:
 
 ```c
 int asm_switch(int x){
@@ -94,10 +94,10 @@ asm_switch:
 
 
 As it is observed `asm_switch` has 6 cases. The compiler converts the switch statement in a _hash table_ under the label `.L14`. 
-As it is expected, the hash table has 6 entries, each entry correspond the each `case`.
+As it is expected, the hash table has 6 entries, each entry correspond to each `case`.
 The line `jmp	*%rax` uses the content of register `rax` to choose which `case` will be executed.
 
-Now, let's see what happens when the switch statement has _few_ entries.
+Now, let's see what happens when a switch statement has _few_ entries.
 In the blue corner we have a switch statement with 3 cases:
 
 ```c
@@ -150,7 +150,7 @@ short_switch:
 	.cfi_endproc
 ```
 
-In this case the switch statement it is compiled as a set of conditional jumps `je` (jump if it is equal to ), there is no _hash table_ in this case. As a note, `je` checks the status of the _zero flag_ (ZF), it is `1` then it jumps.  For example, in the line `cmpl	$1, %eax`, if the value of register `eax` is `1` then `1 -> ZF`, and the programs jumps to `.L20`.
+In this case the switch statement it is compiled as a set of conditional jumps `je` (jump if it is equal to ), there is no _hash table_ in this case. As a note, `je` checks the status of the _zero flag_ (ZF), if it is `1` then it jumps.  For example, in the line `cmpl	$1, %eax`, if the value of register `eax` is `1` then `1 -> ZF`, and the programs jumps to `.L20`.
 
 
 Now let's see the `short_switch` but implemented with if-else statements:
