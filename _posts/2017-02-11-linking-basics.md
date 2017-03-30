@@ -48,8 +48,8 @@ The basic structure of an ELF file is as follow:
 * `.line` mapping between actual C code and compiled code, only generated when compiling with `-g`
 * `.strtab` a string table for symbol in `.symtab` and `.debug`
 
+## Example
 Let's analyze the following example
-
 ```c
 // elf.c
 #include<stdio.h>
