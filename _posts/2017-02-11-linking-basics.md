@@ -51,6 +51,7 @@ The basic structure of an ELF file is as follow:
 Let's analyze the following example
 
 ```c
+// elf.c
 #include<stdio.h>
 
 int A = 5;
@@ -102,7 +103,7 @@ I used `objdump -x` to visualize the `.symtab`. Some  entries of the `.symtab` a
 
 Description of the columns from left to right.
 * virtual memory offset 
-* unit size, in the case of `main` and `a` is g _giant words_ (8 bytes)
+* unit size, in the case of `main` and `a` is *g*, it stands for _giant words_ (8 bytes)
 * type, `F` and `O` stand for _function_ and _object_ respectively
 * section where it belongs, for example `main` belongs to `.text`
 * size in hex
@@ -115,11 +116,14 @@ So these are the basics of the ELF files. If want to read more just google it or
 
 
 # Symbol Resolution
+The compiler associates each symbol reference with one symbol definition in the ELF file. The compiler allows one only ones definition of each local symbol per module. It also ensures that static local variables have unique names.
+In case of global symbols such as variables or functions the compiler has to decide which reference to use, and thus symbol resolution maybe be tricky.
 
-
+# Example 1
+In `symbol1.c`, the symbol `x` has been defined as `int` and it has a reference inside the `printf`.
 
 ```c
-// foo5_1.c
+// symbol1.c
 #include <stdio.h>
 
 int x = 15213;
@@ -136,8 +140,10 @@ int main(){
 x = 15213 	 y = 15212
 ```
 
+But what would happen if we defined the  symbol `x` somewhere else:
+
 ```c
-// bar5.c
+// symbol2.c
 double x;
 
 void f(){
@@ -146,7 +152,7 @@ void f(){
 ```
 
 ```c
-\\ foo5_2.c
+// symbol3.c
 #include <stdio.h>
 
 void f(void);
@@ -156,67 +162,95 @@ int y = 15212;
 
 int main(){
 	f();
-	/*
-	 * the value of x=-0.0 will overwrite the value of 
-	 * x and y since in bar5.c x is declared as double
-	 * in foo5_2.c
-	 *  | X X X X | 4 bytes
-	 *  | Y Y Y Y | 4 bytes
-	 *
-	 * but in bar5.c
-	 *  | X X X X X X X X | 8 bytes
-	 *  since X is negative and 0
-	 *  | 8 0 0 0 0 0 0 0 |
-	 *  | Y Y Y Y X X X X |
-	 * */
-	printf("x = 0x%i \t y = 0x%i \n", 
+	printf("x = 0x%x\t y = 0x%x \n", 
 			x,y);
 	return 0;
 }
 ```
+I compiled it as follow `gcc -o test symbol3.c symbol2.c`, and this is the result.
 
 ```c
-x = 0x0 	 y = 0x-2147483648 
+x = 0x0 	 y = 0x80000000 
 ```
 
+What had happened? 
 
-## main
+In `symbol3` both `x` and `y` have been declared as `int`, but in `symbol2.c` `x` has been declared as `double`. So in memory is something like this.
 
 ```c
-\\bar6.c
+// symbol3.c
+0000    X X X X   // 4 bytes
+0004    Y Y Y Y   // 4 bytes
+0008    ...
+
+// symbol2.c
+0000    X X X X X X X X   // 8 bytes
+        0 0 0 0 0 0 0 8   // -0.0
+0008    ...
+```
+
+Thus, the assignment of `x` as `double` overwrites the memory location of `int x` and `int y`. And that's a nasty bug.  
+
+
+# Example 2
+
+Let's defined a function `p()` and a `char main` in `symbol4.c`.
+```c
+//symbol4.c
 #include <stdio.h>
 
 char main;
 
-void p2(){
-	printf("0x%x\n",&p2);
-	printf("0x%x\n",p2);
+void p(){
 	printf("0x%x\n",*(&main+1));
-	/* when printing main it prints the opcode of the first instruction
-	 * push %rbp -> 0x55 ,note that main is called from _start 
-	 * maybe that's why main contains the first opcode instead of the address
-	 * but in case of p2, it print the address of the first 
-	 * assembler instruction
-	 * */
 	printf("0x%x\n",main);
 }
 ```
+And call `p()` in another file `symbol5.c`
 
 ```c
-\\foo6.c
-void p2(void);
+//symbol5.c
+void p(void);
 
 int main(){
-	p2();
+	p();
 	return 0;
 }
 ```
 
+The result of compiling as follow `gcc -o test symbol5.c symbol4.c` is:
+
 ```c
-0x400506
-0x400506
+// output
 0x48
 0x55
 ```
 
+Why did `p()` print something even though `main` has not been initialized?
 
+With the help of `objdump -x test` let's see if `main` is defined in first place:
+
+```
+4004f6 g     F .text	000010              main
+```
+
+It is defined as _function_, this is because `char main` is a weak symbol (it has been declared but not defined) whereas `int main() {...}` is a strong symbol. Thus, _function_ `main` overrides `char main`.
+
+Now it's time to explain the output. I use `objdump -D` to see the opcode of _main_. 
+
+```nasm
+00000000004004f6 <main>:
+  4004f6:	55                   	push   %rbp
+  4004f7:	48 89 e5             	mov    %rsp,%rbp
+  4004fa:	e8 07 00 00 00       	callq  400506 <p2>
+  4004ff:	b8 00 00 00 00       	mov    $0x0,%eax
+  400504:	5d                   	pop    %rbp
+  400505:	c3
+```
+
+It is easy to observed that `printf("0x%x\n",*(&main+1));` prints what is in address `4004f7` (0x48), and `printf("0x%x\n",main);` prints what is in address `4004f6` (0x55).
+
+# Final thoughts
+* Always compile your code with `-W` and `-Wall` flags to avoids these types of "unexpected" behaviors.
+* `objdump` is a very useful tool to understand what is going on under the hood, but it can be a pain in the ass if the code is very large. 
+* Even though I didn't use `gdb` in this post, I highly recommend to learn it.
