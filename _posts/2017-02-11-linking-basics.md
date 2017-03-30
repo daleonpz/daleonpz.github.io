@@ -231,7 +231,7 @@ Why did `p()` print something even though `main` has not been initialized?
 With the help of `objdump -x test` let's see if `main` is defined in first place:
 
 ```
-4004f6 g     F .text	000010              main
+4004f6 g     F .text	000010       main
 ```
 
 It is defined as _function_, this is because `char main` is a weak symbol (it has been declared but not defined) whereas `int main() {...}` is a strong symbol. Thus, _function_ `main` overrides `char main`.
@@ -240,11 +240,11 @@ Now it's time to explain the output. I use `objdump -D` to see the opcode of _ma
 
 ```nasm
 00000000004004f6 <main>:
-  4004f6:	55                   	push   %rbp
-  4004f7:	48 89 e5             	mov    %rsp,%rbp
-  4004fa:	e8 07 00 00 00       	callq  400506 <p2>
-  4004ff:	b8 00 00 00 00       	mov    $0x0,%eax
-  400504:	5d                   	pop    %rbp
+  4004f6:	55            	push   %rbp
+  4004f7:	48 89 e5      	mov    %rsp,%rbp
+  4004fa:	e8 07 00 00 00	callq  400506 <p2>
+  4004ff:	b8 00 00 00 00	mov    $0x0,%eax
+  400504:	5d            	pop    %rbp
   400505:	c3
 ```
 
