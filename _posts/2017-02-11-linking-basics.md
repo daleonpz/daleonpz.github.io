@@ -119,7 +119,7 @@ So these are the basics of the ELF files. If want to read more just google it or
 The compiler associates each symbol reference with one symbol definition in the ELF file. The compiler allows one only ones definition of each local symbol per module. It also ensures that static local variables have unique names.
 In case of global symbols such as variables or functions the compiler has to decide which reference to use, and thus symbol resolution maybe be tricky.
 
-# Example 1
+## Example 1
 In `symbol1.c`, the symbol `x` has been defined as `int` and it has a reference inside the `printf`.
 
 ```c
@@ -192,7 +192,7 @@ In `symbol3` both `x` and `y` have been declared as `int`, but in `symbol2.c` `x
 Thus, the assignment of `x` as `double` overwrites the memory location of `int x` and `int y`. And that's a nasty bug.  
 
 
-# Example 2
+## Example 2
 
 Let's defined a function `p()` and a `char main` in `symbol4.c`.
 ```c
