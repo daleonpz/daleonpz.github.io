@@ -3,7 +3,7 @@ layout: post
 title: Linking basics
 ---
 
-In my journey to master the most obscure and secrets arts of computer systems, I started by master the basics. 
+In my journey to master the most obscure and secrets arts of computer systems, I started by mastering the basics. 
 One thing I have never worried to learn properly was *linking*, since most of the projects I worked on had everything set, `Makefile` was already written.
 But the time to grow up becomes.
 Let's start then.a
