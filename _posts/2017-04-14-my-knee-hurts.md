@@ -10,20 +10,19 @@ I have suffered from patellar tendon pain for almost 2 years.
 If you experience pain for a long period of time, it could be from 2-5 weeks up to several years, it means you developed a chronic pain (tendinosis), while tendonitis is an acute stage. 
 In other words, you develop patellar tendinosis by ignoring the symptoms of patellar tendonitis[(ref)](https://www.amazon.com/Beating-Patellar-Tendonitis-Martin-Koban-ebook/dp/B00F9210UI).
 On the other hand, tendinopathy is the umbrella term for these kind of injuries (tendonitis and tendinosis).
+I got my knees checked and I did my rehab several times but my patellar tendinopathy kept coming back. 
+It could be the right or left knee, and sometimes both of them. Now, I am fully recovered from my injuries.
 
-Some reasons I thought were causing my tendinopathy.
+Reasons that could be causing the tendinopathy.
 * Too much training
 * The shoes I was wearing
 * My feet structure
 * My knees were weak
-* Bad landing
+* Bad landing technique
+* Dysfunctional movement patterns
 
-Some of them were true. 
-I checked my knees and did my rehab several times but my patellar tendopathy kept coming back. 
-It could be the right or left knee, and sometimes both of them. Now, I am fully recovered from my injuries.
-
-Thus, in this post I will try to sumarize all the information I gathered based on the books I read and my onw experiences. 
-I will focused mainly in patellar tendonitis, but the concepts I will explain can be apply to any other tendopathy. 
+In this post I will try to summarize all the information I gathered based on the books I read and my own experiences. 
+I will focused mainly in patellar tendonitis, but the concepts I will explain can be apply to any other tendinopathy. 
 
 You should learn and remember the following statements:
 
@@ -35,7 +34,7 @@ First:
 Joints such as knees and elbows are quite simple in terms of mobility, these joints can only move in one plane. They can do some rotational movement but it is almost 0.
 Thus, if there is pain in these joints it means that some other joint is not working as it supposed to do. 
 Joints can be classify as mobile and stable. 
-Most of the problems appear, for example, when a mobile joint for some reason it is also working as stable joint and viceversa.
+Most of the problems appear, for example, when a mobile joint for some reason it is also working as stable joint and vice versa.
 
 <figure>
     <a href="/images/posts/mykneehurts-01.jpg"><img src="/images/posts/mykneehurts-01.jpg"></a>
@@ -43,8 +42,8 @@ Most of the problems appear, for example, when a mobile joint for some reason it
 </figure>
 
 In the case of the knee, if you have knee pain you can start by fixing your mobility problems in the ankles and hip, and then  work on your stability in hip and knee.
-Mobility is the ability to move, while stability is the ability to control the movement.
-This kind of approach also implies working on increase the quality of the muscle tissue (release knots, flexibility and strengthening) and improve your basic movement patterns such as hip hinge, which is super important in parkour (landings and jumps)..
+Mobility is the ability to move a joint through its complete range of motion, while stability is the ability to control the movement even under load.
+This kind of approach also implies working on increase the quality of the muscle tissue (release knots, flexibility and strengthening) and improve your basic movement patterns such as hip hinge, which is super important in parkour (landings and jumps).
 
 Here are some videos related to this topic:
 
@@ -52,7 +51,7 @@ Here are some videos related to this topic:
 **Hip hinge**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tiW2BuxKT84" frameborder="0"></iframe>
-**Why does my elbow hurt when pulling up?**
+**Why does my elbow hurt when do pull ups?**
 
 Second:
 :   "Train hard, but most important, train smart."
@@ -61,17 +60,17 @@ Second:
 
 Train hard is great, but don't be reckless. 
 Your body has to recover from the stress that implies moving around.
-Overtraining can lead to injuries, also it cannot allow you to do your best because you will be to tired to do so.
+Over training can lead to injuries, also it cannot allow you to do your best because you will be too tired to do so.
 
-Moreover, having a training log or journal can be very benefitial.
-It will help you to analize and rethink your training. 
+Moreover, having a training log or journal can be very beneficial.
+It will help you to analyze and re plan your training. 
 Also, if you have an injury it will help you to track when and why it happened.
 This information is relevant to your therapist, it will improve your recovery time as well as your results.
 
 
 Learning the proper technique is it super important, maybe the most important thing. 
 You will prevent a lot of injuries, it will allow you to practice parkour for your whole life. 
-Another benefict is that you will progress faster, since your will not spend time in fixing bad forms.
+Another benefit is that you will progress faster, since your will not spend time in fixing bad forms.
 Always **quality over quantity**.
 
 Third:
@@ -80,19 +79,25 @@ Third:
 -----
 
 Pain is a symptom that something has passed a threshold and it is already damage.
-I am not in the context of accidents, I am talking about training without applying the proper techinques or overuse.
+I am not in the context of accidents, I am talking about training without applying the proper techniques or overuse.
 For example, patellar tendinopathy can be caused by repetitive jumping, it is very common in NBA players, and also can be caused by lack of hinge motion in the hip.
-The bottomline is that you could be injuried yourself without even knowing it. 
+The bottom line is that you could be injured yourself without even knowing it. 
 If possible train with a coach or record and educate yourself, and include some rehab as part of your training sessions. 
 
 
 Fourth:
-:   "Training also means rehab"
+:   "Training also means rehabilitation"
 
 -----
 
-Rehab should be part of your training to prevent or recovery from injuries. 
+Rehab should be part of your training to prevent or recovery from injuries.
+Usually, people think that rehabilitation should be done only if you are injured, but it is not true.
+Due to the lack of movement in this society our body is damaged. For example, joints become immobile, muscles become stiff and weak; and our coordination decrease.
+Thus, in order to compensate this lack of movement and rehabilitate our body, we should add some rehab as part of our everyday movement.
 
+
+# Last words
+Take care of your body, you cannot buy a new one... at least not now ;)
 
 
 ## Resources:
@@ -108,9 +113,9 @@ Rehab should be part of your training to prevent or recovery from injuries.
 * [Improve Your Squat! Full Mobility Workshop](https://www.youtube.com/watch?v=58dkMblR9RM)
 * [Improve Your DEADLIFT](https://www.youtube.com/watch?v=6c1l7de0oBE)
 
-## Recommended youtube channels
+## Recommended YouTube channels
 * [Calisthenicmovement](https://www.youtube.com/user/Calisthenicmovement) 
-* [GuerrillaZen Fitness](https://www.youtube.com/user/GuerrillazenFitness)
+* [Guerrilla Zen Fitness](https://www.youtube.com/user/GuerrillazenFitness)
 * [Ido Portal](https://www.youtube.com/user/portaldo)
 * [Dr. Andreo Spina](https://www.youtube.com/user/AndreoSpina)
 * [ATHLEAN-X™](https://www.youtube.com/user/JDCav24)
