@@ -136,7 +136,7 @@ int input1;
 
 
 
-## Final words
+## Last words
 That's all I have in mind for this moment. I hope this post helped you as much as it helped me. 
 I will update this post if I remember more mistakes or if you send me more.
 
