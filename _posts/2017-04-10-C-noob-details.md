@@ -3,16 +3,16 @@ layout: post
 title: Details of C that every noob forgets
 ---
 
-I am still forgeting some of them, that's why I wrote this post ;)
+I am still forgetting some of them, that's why I wrote this post ;)
 
-# Details
+# C Details
 
 ## Floating numbers
 The IEEE 754 standard specifies that a floating-point number will be represented as follows:
   
   *  Sign bit: 1 bit
   *  Exponent width: 8 bits
-  *  Significand precision: 23 bits
+  *  Significant precision: 23 bits
 
 Read more [here](https://en.wikipedia.org/wiki/Single-precision_floating-point_format)
 
@@ -20,12 +20,12 @@ And a double-precision floating-point number:
 
   *  Sign bit: 1 bit
   *  Exponent width: 11 bits
-  *  Significand precision: 52 bits
+  *  Significant precision: 52 bits
 
 The `%` operator cannot be applied to a float or double.
 
 ## Parenthesis counts
-`!=` is has higher "range" than "=", which means that: 
+`!=` has a higher "range" than "=", which means that: 
 ```
 c = getchar() != EOF
 ```
@@ -34,19 +34,22 @@ is equivalent to
 c = (getchar() != EOF)
 ```
 
+
+`*p++` is not the same as `(*p)++`. In the first case `p++` is performed first.  Read more about [C Operator Precedence](http://en.cppreference.com/w/c/language/operator_precedence).
+
 ## Be careful with the quotes
-* `'a'` is not the same as `"a"`. `'a'` is an `int` with the numeric value of `97 (0x61)`, whereas `"a"` is an `char []` defined  as `[ 'a', '\0']`.  
+* `'a'` is not the same as `"a"`. `'a'` is an `int` with the numeric value of `97 (0x61)`, whereas `"a"` is an `char` array defined  as `[ 'a', '\0']`.  Where `'\0'` is the null character.
 
-## There are bugs growing in my garbage 
-* External and static variables are initialized to zero by default. Automatic variables for which is no explicit initializer have undefined values.
+## Please, give me a soul
+* `extern` and `static` variables are initialized to zero by default. Automatic and `register` variables will have an undefined values if they are not initialized.
 
-* `malloc()` does not initialize the memory allocated, `calloc()` does.
+* `malloc()` does not initialize the allocated memory, `calloc()` does.
 
-## Assigment operators
+## Assignment operators
 Do not forget that: <br>
   `x *= y+a` is the same as `x = x * ( y+a )`
 
-## C gives a shit about identation
+## C gives a shit about indentation
 In case of possible ambiguity it is better to use braces to avoid bugs.
 
 ```c
@@ -57,8 +60,8 @@ else
     n--;
 ```
 
-In the code above, the compiler will have no problem in understand what you want to do, but is the following case, there will be same problems even though it is "clear" for a human to understand what you wanted to do.
-It seems that `else` belongs to the outer `if` but it is not.
+In the code above, the compiler will have no problem in understand what you want to do, but is the following case, there will be same problems even though it is "clear" for a human to understand what you want to do.
+It seems that `else` belongs to the outer `if` but, in reality, it does not.
 ```c
 /* Case with ambiguity*/
 if ( n>9 )
@@ -82,17 +85,34 @@ else
     n--;
 ```
 
+## My mind is here but my body somewhere else
+Do not forget the keyword `extern` when you are going to use a variable that is it defined in some other file.
+
+```c
+/* file 1*/
+extern int f[];
+
+void main(int x){
+    f[0] = x;
+}
+
+/* file 2 */
+int f[] = {4,5,6};
+```
+
+Of course, do not forget to link that file to your source.
+For example `gcc -o a.out file1.c file2.c`.
 
 
 # Recommendations
 
 ## Use keyword to keep your code safe
-* Specify `signed` or `unsigned` when the variable will be have either positive and negatives values, or non-negative values.
+* Specify `signed` or `unsigned` when the variable will be have either positive and negative values, or non-negative values.
 * Use `const` if you know that the variable will not change, or it shouldn't be modified in a function.
 * Use `static` if you want to hide variables or functions declarations inside modules. It is similar to `private` keyword in c++;
 
 ## Use `void` due to backwards compatibility
-`void` states explicity as empty list. Read more [here](https://www.doc.ic.ac.uk/lab/cplus/cstyle.html) 
+`void` states explicitly as empty list. Read more [here](https://www.doc.ic.ac.uk/lab/cplus/cstyle.html) 
 
 The code below works but there is no verification. `test` is not supposed to return anything, but due to backwards compatibility  `test` could be defined as if it returned something. And this my friend is a bug. 
 
@@ -113,3 +133,12 @@ int input1;
     return (input1 + 4);
 }
 ```
+
+
+
+## Final words
+That's all I have in mind for this moment. I hope this post helped you as much as it helped me. 
+I will update this post if I remember more mistakes or if you send me more.
+
+
+Cheers :3
