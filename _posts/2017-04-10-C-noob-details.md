@@ -38,7 +38,7 @@ c = (getchar() != EOF)
 `*p++` is not the same as `(*p)++`. In the first case `p++` is performed first.  Read more about [C Operator Precedence](http://en.cppreference.com/w/c/language/operator_precedence).
 
 ## Be careful with the quotes
-* `'a'` is not the same as `"a"`. `'a'` is an `int` with the numeric value of `97 (0x61)`, whereas `"a"` is an `char` array defined  as `[ 'a', '\0']`.  Where `'\0'` is the null character.
+* `'a'` is not the same as `"a"`. `'a'` is a `char` with the numeric value of `97 (0x61)`, whereas `"a"` is an `char` array defined  as `[ 'a', '\0']`.  Where `'\0'` is the null character.
 
 ## Please, give me a soul
 * `extern` and `static` variables are initialized to zero by default. Automatic and `register` variables will have an undefined values if they are not initialized.
