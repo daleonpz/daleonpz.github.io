@@ -103,6 +103,8 @@ int f[] = {4,5,6};
 Of course, do not forget to link that file to your source.
 For example `gcc -o a.out file1.c file2.c`.
 
+## Breaks
+*DO NOT FORGET* that `break` statement does *NOT* provide an early exit from `if`, but it does from `for`, `while`, `do` and `switch`. 
 
 # Recommendations
 
