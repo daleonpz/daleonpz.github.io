@@ -33,8 +33,10 @@ name
 With the benefit of practical experience, default global visibility has been conclusively and repeatedly
 demonstrated to be a mistake. Software objects should have the most limited scope by default.
 Programmers should explicitly take action when they intend to give something global scope.
-## sins of ommission
 
+## sins of mission
+covers things in C that just seem misdirected, or a bad fit to the
+language
 * Overloading issues
 sizeof is an operator, not a function
 ```c
@@ -68,6 +70,38 @@ sizeof (int)*n = 32
 sizeof((short)*p) = 2
 ```
 
+buffer overflow 
 
 
-## sins of mission
+## sins of ommission
+covers things that the language doesn't do that it should.
+
+### spaces
+
+error
+```
+z = y+++++x;
+
+ lvalue required as increment operand
+i+++++j
+   ^~
+
+```
+
+that `/*y` is considered as comment opener.
+```
+ratio = *x/*y;
+```
+
+To last post: avoid when possible this kind of things
+
+```
+int *foo(){
+    int *x;
+
+    x = (int*) malloc(10);
+    
+    return x;
+}
+```
+
