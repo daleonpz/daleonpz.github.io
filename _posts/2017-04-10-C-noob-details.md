@@ -25,7 +25,7 @@ And a double-precision floating-point number:
 The `%` operator cannot be applied to a float or double.
 
 ## Parenthesis counts
-`!=` has a higher "range" than "=", which means that: 
+`!=` has a higher "range" or precedence than "=", which means that: 
 ```
 c = getchar() != EOF
 ```
@@ -36,6 +36,17 @@ c = (getchar() != EOF)
 
 
 `*p++` is not the same as `(*p)++`. In the first case `p++` is performed first.  Read more about [C Operator Precedence](http://en.cppreference.com/w/c/language/operator_precedence).
+
+In general, use parenthesis and/or split statements when they could be confusing such as:
+
+```c
+   int a, b=2, c=3;
+   a=b=c;
+   printf("a=%d\tb=%d\tc=%d\n",a,b,c);
+
+/* Output */
+a=3	b=3	c=3
+```
 
 ## Be careful with the quotes
 * `'a'` is not the same as `"a"`. `'a'` is a `char` with the numeric value of `97 (0x61)`, whereas `"a"` is an `char` array defined  as `[ 'a', '\0']`.  Where `'\0'` is the null character.
