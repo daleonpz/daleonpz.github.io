@@ -107,7 +107,31 @@ For example `gcc -o a.out file1.c file2.c`.
 # Recommendations
 
 ## Use keyword to keep your code safe
-* Specify `signed` or `unsigned` when the variable will be have either positive and negative values, or non-negative values.
+* Cast `signed` or `unsigned` if the operand will be have either positive and negative values, or non-negative values. So the compiler doesn't have to choose.
+
+```c
+int i =-1;
+unsigned int j = 2;
+
+/* don't forget that 
+ i = 0xFFFF
+ j = 0x2   */
+if ( i < j)  
+    puts("i < j");
+else 
+    puts("actually, i > j");
+```
+
+The above code prints `"actually, i > j`, since `j` is `unsigned` so `i` is also treated as `unsigned`. Thus, `0xffff > 0x2`. You should cast `j` as `signed` to make the condition true. 
+
+
+```
+if ( i < (signed) j)  
+    puts("i < j");
+else 
+    puts("actually, i > j");
+```
+
 * Use `const` if you don't want the variable to change (read-only status), or it shouldn't be modified in a function.
 * Use `static` if you want to hide variables or functions declarations inside modules. It is similar to `private` keyword in c++;
 
