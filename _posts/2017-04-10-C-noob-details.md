@@ -106,6 +106,29 @@ For example `gcc -o a.out file1.c file2.c`.
 ## Breaks
 *DO NOT FORGET* that `break` statement does *NOT* provide an early exit from `if`, but it does from `for`, `while`, `do` and `switch`. 
 
+## Strings and commas
+Be careful with the commas when defining `char` arrays, or working with strings in general.
+
+```c
+char *words[] = {
+    "hi",
+     /*no comma*/
+    "hello"
+    "danke",
+    "hola"
+}
+```
+
+If we print each element of that array, we will get this:
+
+```c
+    "hi"
+    "hellodanke"
+    "hola"
+```
+
+Since C concatenates strings, that's why the program prints `"hellodanke"`. 
+
 # Recommendations
 
 ## Use keyword to keep your code safe
