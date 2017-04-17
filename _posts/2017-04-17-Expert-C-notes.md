@@ -27,6 +27,8 @@ switch (i) {
 ```
 
 * Do not forget to `break` if you don't want to _fall throught_ other `case`.
+
+
 ## sins of ommission
 
 ## sins of mission
