@@ -108,7 +108,7 @@ For example `gcc -o a.out file1.c file2.c`.
 
 ## Use keyword to keep your code safe
 * Specify `signed` or `unsigned` when the variable will be have either positive and negative values, or non-negative values.
-* Use `const` if you know that the variable will not change, or it shouldn't be modified in a function.
+* Use `const` if you don't want the variable to change (read-only status), or it shouldn't be modified in a function.
 * Use `static` if you want to hide variables or functions declarations inside modules. It is similar to `private` keyword in c++;
 
 ## Use `void` due to backwards compatibility
