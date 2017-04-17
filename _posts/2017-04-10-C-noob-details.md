@@ -127,7 +127,7 @@ If we print each element of that array, we will get this:
     "hola"
 ```
 
-Since C concatenates strings, that's why the program prints `"hellodanke"`. 
+Since C concatenates strings the program printed `"hellodanke"`. 
 
 # Recommendations
 
