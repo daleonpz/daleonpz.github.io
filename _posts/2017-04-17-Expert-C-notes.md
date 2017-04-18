@@ -3,9 +3,9 @@ layout: post
 title: Expert C notes
 ---
 
-Ch1:
+# Ch1:
 
-Ch2:
+# Ch2:
 
 ## sins of commission
 
@@ -103,5 +103,47 @@ int *foo(){
     
     return x;
 }
+```
+# Chapter 3
+Declarations
+
+The Precedence Rule for Understanding C Declarations
+* Declarations are read by starting with the name and then reading in precedence order.
+* The precedence, from high to low, is:
+** Parentheses grouping together parts of a declaration
+** the postfix operators: parentheses () indicating a function, and square brackets [] indicating an array.
+** the prefix operator: the asterisk denoting "pointer to".
+* C If a const and/or volatile keyword is next to a type specifier (e.g. int, long , etc.) it applies to the type specifier. Otherwise the const and/or volatile keyword applies to the pointer asterisk on its immediate left.
+
+From "Expert C Programming: Deep C secrets" by Peter van der Linden
+
+```
+/* pointer to const int */
+const int * grape;
+int const * grape;
+
+/* const pointer to int */
+int * const grape_jelly;
+
+/* array of pointers to int*/
+int *p[3]
+
+/* pointer to a int array */
+int (*p)[3]
+
+/* pointer to a function */
+int (*p)()
+
+/* fut in a function that returns
+a pointer to function that returns an int */
+int (* fun())()
+
+/*  next is a pointer to function
+that returns a pointer to const pointer to char  */
+char* const *(*next)();
+
+/* x is a array of pointers to a function
+that returns a pointer to char array  */
+char (*(*x[3])())[5]
 ```
 
