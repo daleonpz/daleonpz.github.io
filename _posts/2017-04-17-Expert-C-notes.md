@@ -105,7 +105,7 @@ int *foo(){
 }
 ```
 # Chapter 3
-Declarations
+## Declarations
 
 The Precedence Rule for Understanding C Declarations
 * Declarations are read by starting with the name and then reading in precedence order.
@@ -117,7 +117,7 @@ The Precedence Rule for Understanding C Declarations
 
 From "Expert C Programming: Deep C secrets" by Peter van der Linden
 
-```
+```c
 /* pointer to const int */
 const int * grape;
 int const * grape;
@@ -145,5 +145,105 @@ char* const *(*next)();
 /* x is a array of pointers to a function
 that returns a pointer to char array  */
 char (*(*x[3])())[5]
+
+/* c is an array of pointers to function
+that recieve  a pointer to a pointer to int
+and returns a pointer to char*/
+char *(*c[10])(int **p);
+
 ```
 
+## typedef
+
+Since a typedef looks exactly like a variable declaration, it is read exactly like one
+
+```c
+typedef void (*ptr_to_func) (int);
+/* this says that ptr_to_func is a pointer to a function
+* that takes an int argument, and returns void
+*/
+```
+
+### typedef vs macros
+`typedef` cannot be extended with a specifier
+
+```c
+#define peach int
+unsigned peach i; /* works fine */
+typedef int banana;
+unsigned banana i; /* Bzzzt! illegal */
+```
+
+Second, a typedef 'd name provides the type for every declarator in a declaration.
+
+```c
+#define int_ptr int *
+int_ptr chalk, cheese;
+```
+
+After macro expansion, the second line effectively becomes:
+`int * chalk, cheese;`
+This makes chalk and cheese as different as chutney and chives: chalk is a pointer-to-an-integer, while
+cheese is an integer. In contrast, a typedef like this:
+
+```c
+typedef char * char_ptr;
+char_ptr Bentley, Rolls_Royce;
+```
+
+declares both `Bentley` and `Rolls_Royce` to be the same. The name on the front is different, but they are
+both a pointer to a char.
+
+
+## struct
+
+
+```c
+#include <stdio.h>
+
+int main (){
+    typedef struct foo {
+        int foo;
+        char a,b;
+    
+    } foo;
+
+    printf("sizeof(foo) = %u \n",sizeof(foo));
+}
+
+/* output */
+
+sizeof(foo) = 8 
+
+```
+
+so it use foo as the struct
+
+be careful:
+
+```c
+typedef struct fruit {int weight, price_per_lb } fruit; /*
+statement 1 */
+struct veg
+{int weight, price_per_lb } veg;
+/*
+statement 2 */
+```
+
+very different things are happening. Statement 1 declares a structure tag "fruit" and a
+structure typedef "fruit"
+
+
+```c
+struct fruit mandarin; /* uses structure tag "fruit" */
+fruit tangerine; /* uses structure type "fruit" */
+```
+
+Statement 2 declares a structure tag "veg" and a variable veg. Only the structure tag can be used in
+further declarations,
+
+```c
+struct veg potato;
+```
+
+TODO: write a post related to challenge
