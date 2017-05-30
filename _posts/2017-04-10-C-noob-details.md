@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Details of C that every noob forgets
+category: programming
 ---
 
 I am still forgetting some of them, that's why I wrote this post ;)
