@@ -3,7 +3,7 @@ jQuery(function ($) {
     var container = $("#map");
     var r = Raphael('map', container.width(), container.height());
 //     var r = Raphael(0,0,1200,800);
-    var panZoom = r.panzoom({ initialZoom: 1, initialPosition: { x: 120, y: 500} });
+    var panZoom = r.panzoom({ initialZoom: 5, initialPosition: { x: 120, y: 300} });
 	var isHandling = false;
 	
     panZoom.enable();
@@ -21,16 +21,15 @@ jQuery(function ($) {
     var overlay = r.rect(0, 0, r.width, r.height);
     overlay.attr({ fill: '#ffffff', 'fill-opacity': 0, "stroke-width": 0, stroke: '#ffffff' });
 
-    for (var country in paths) {
-
+    for (var country in paths){
         var obj = r.path(paths[country].path);
 
         obj.attr(attributes);
         obj.click(handleDetails);
-//         obj.data("hoverFill", "#3e5f43");
-//         obj.data("fill", "#F1F1F1");
-        obj.data("fill", "#cccccc");
-        obj.data("opacity", 0.7);
+        obj.data({
+            'code': paths[country].code, 
+            'name': paths[country].name 
+        });
         obj.hover(animateOver, animateOut);
         arr[paths[country].name] = obj;
     }
@@ -48,17 +47,17 @@ jQuery(function ($) {
     $("#others #moveTopLeft").click(function (e) {
         panZoom.pan(1,1);
     });
-    
-	function animateOver() {
-        if (this.data("opacity")) {
-            this.attr("fill", this.data("opacity"));
-        }
+   
+    function animateOver() {
+            this.attr("opacity",0.7) ;
+            document.getElementById('country-name').innerHTML =
+                        this.data('name');
     }
 
     function animateOut() {
-        if (this.data("fill")) {
-            this.attr("fill", this.data("fill"));
-        }
+            this.attr("opacity",1);
+            document.getElementById('country-name').innerHTML = 
+                    "Somewhere over the ocean";
     }
     
     function handleDetails() {
