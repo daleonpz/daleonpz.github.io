@@ -1,7 +1,27 @@
 function colorize(obj,attr1, attr2){
     switch(obj.data('code')){
+            // South America
+        case "PE":
+        case "CL":
+            // Central America
+            // North America
         case "US":
-        case "CA": 
+            // Afrika
+        case "MA":
+            // Oceania
+            // Asia
+        case "SG":
+        case "TH":
+        case "HK":
+        case "KR":
+            // Europe
+        case "ES":
+        case "DE":
+        case "NL":
+        case "CZ":
+        case "IT":
+        case "BE":
+        case "FR":
             obj.attr(attr1);
             break;
         default:
@@ -48,11 +68,6 @@ jQuery(function ($) {
         });
         
         colorize(obj, attr_visit, attr_no_visit);
-//         if (obj.data('code') == 'US')
-//             obj.attr(attr_visit);
-//         else
-//             obj.attr(attr_no_visit);
-// 
         obj.hover(animateOver, animateOut);
         arr[paths[country].name] = obj;
     }
@@ -73,8 +88,12 @@ jQuery(function ($) {
  
     function animateOver() {
             this.attr("opacity",0.7) ;
+        if( this.attr("fill") == "#111111")
             document.getElementById('country-name').innerHTML =
-                        this.data('name');
+                       "I've been in "+ this.data('name');
+        else
+            document.getElementById('country-name').innerHTML =
+                       "I'll be in "+ this.data('name') + " someday";
     }
 
     function animateOut() {
