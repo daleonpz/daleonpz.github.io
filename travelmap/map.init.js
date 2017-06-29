@@ -74,20 +74,20 @@ jQuery(function ($) {
         arr[paths[country].name] = obj;
     }
 
-//     $("#mapContainer #up").click(function (e) {
-//         panZoom.zoomIn(1);
-//         e.preventDefault();
-//     });
-// 
-//     $("#mapContainer #down").click(function (e) {
-//         panZoom.zoomOut(1);
-//         e.preventDefault();
-//     });
-//     
-//     $("#others #moveTopLeft").click(function (e) {
-//         panZoom.pan(1,1);
-//     });
-//  
+    $("#mapContainer #up").click(function (e) {
+        panZoom.zoomIn(1);
+        e.preventDefault();
+    });
+
+    $("#mapContainer #down").click(function (e) {
+        panZoom.zoomOut(1);
+        e.preventDefault();
+    });
+    
+    $("#others #moveTopLeft").click(function (e) {
+        panZoom.pan(1,1);
+    });
+ 
     function animateOver() {
             this.attr("opacity",0.7) ;
         if( this.attr("fill") == "#111111")
