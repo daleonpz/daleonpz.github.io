@@ -33,7 +33,7 @@ jQuery(function ($) {
     var inDetails = false;
     var container = $("#map");
     var r = Raphael('map', container.width(), container.height());
-    var panZoom = r.panzoom({ initialZoom: 5, initialPosition: { x: 120, y: 300} });
+    var panZoom = r.panzoom({ initialZoom: 5, initialPosition: { x: 215, y: 295} });
     var isHandling = false;
 	
     panZoom.enable();

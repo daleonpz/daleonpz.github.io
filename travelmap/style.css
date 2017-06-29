@@ -2,15 +2,15 @@
 #mapContainer { 
     background: #f0000;
     border: 1px solid #ccc;
-    height: 720px;
+    max-height: 720px;
     position: relative;
-    width: 1080px;
+    max-width: 600px;
     overflow: hidden;
 }
 
 #mapContainer #map { 
-    height: 720px;
-    width: 1080px;
+    height: 2000px;
+    width: 2000px;
 }
 
 #mapContainer #mapControls { 
