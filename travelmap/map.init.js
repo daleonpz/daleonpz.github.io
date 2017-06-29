@@ -61,14 +61,12 @@ jQuery(function ($) {
     for (var country in paths){
         var obj = r.path(paths[country].path);
 
-   //     obj.click(handleDetails);
         obj.data({
             'code': paths[country].code, 
             'name': paths[country].name 
         });
         
         colorize(obj, attr_visit, attr_no_visit);
-//         obj.hover(animateOver, animateOut);
         obj.mouseover(animateOver);
         obj.mouseout(animateOut);
         arr[paths[country].name] = obj;
@@ -103,45 +101,4 @@ jQuery(function ($) {
             document.getElementById('country-name').innerHTML = 
                     "Somewhere over the ocean";
     }
-    
-//     function handleDetails() {
-//         if (panZoom.isDragging() || isHandling) return;
-//         isHandling = true;
-//         var anim, box = this.getBBox();
-// 
-//         if (inDetails) {
-//             inDetails = false;
-//             panZoom.enable();
-//             this.hover(animateOver, animateOut);
-//             anim = overlay.animate({ 'fill-opacity': 0 }, 300, function () { this.toBack(); isHandling = false; });
-//             this.animateWith(overlay, anim, {
-//                 transform: ""
-//             }, 300);
-//             this.attr("fill", this.data("fill"));
-//         }
-//         else {
-//             inDetails = true;
-//             panZoom.disable();
-//             this.unhover(animateOver, animateOut);
-//             overlay.toFront();
-//             this.toFront();
-// 
-//             var currPaperPosition = panZoom.getCurrentPosition();
-//             var currPaperZoom = panZoom.getCurrentZoom();
-// 
-//             var currHeight = r.height * (1 - currPaperZoom * 0.1);
-// 
-//             var zoomDif = (currHeight / 2) / box.height;
-// 
-//             var xdif = currPaperPosition.x - box.x + ((box.width * zoomDif) - box.width) / 2;
-//             var ydif = (currPaperPosition.y + ((currHeight / 2) - (box.height / 2))) - box.y;
-// 
-// 
-//             anim = overlay.animate({ 'fill-opacity': 0.7 }, 300, function () { isHandling = false; });
-//             this.animateWith(overlay, anim, {
-//                 transform: "t" + xdif + "," + ydif + "s" + zoomDif
-//             }, 300);
-//         }
-//     }
-    
 });
