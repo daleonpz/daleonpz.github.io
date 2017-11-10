@@ -14,7 +14,8 @@ Here is the list of tools I often use and I think they are superuseful:
 
 # Programming
 - **Interface** Vim [link](http://www.vim.org/)
-- **Plug-in** gdb-dashboard [link](https://github.com/cyrus-and/gdb-dashboard)
+- **gdb Plug-in** gdb-dashboard [link](https://github.com/cyrus-and/gdb-dashboard)
+- **Vim Plug-in** cscope [link](http://cscope.sourceforge.net/cscope_vim_tutorial.html)
 
 # Vim-like
 - **Firefox Navigation** vimperator [link](http://vimperator.org/)
