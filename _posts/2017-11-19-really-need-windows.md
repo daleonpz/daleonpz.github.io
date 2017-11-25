@@ -4,7 +4,7 @@ title: If you really need to use Windows
 category: programming
 ---
 
-I I'm doing a masters in Germany but I don't have a _portable_ laptop. It is falling to pieces, so basically my laptop is used as a desktop. so weit, so gut... I am a **Linux** user, my keyboard layout is **programmer Dvorak**  and a use **vim** a lot as well.  However, sometimes I need to use Windows laptops or desktops to get my uni related things done when I am at the University.
+I'm doing a masters in Germany but I don't have a _portable_ laptop. It is falling to pieces, so basically my laptop is used as a desktop. so weit, so gut... I am a **Linux** user, my keyboard layout is **programmer Dvorak**  and a use **vim** a lot as well.  However, sometimes I need to use Windows laptops or desktops to get my uni related things done when I am at the University.
 
 During the last month I have been struggling and cursing the university for using windows. For gods sake, we are studying computer science and embedded systems!... Anyway, I was thinking in buying some low-end laptop just to use Linux and get my job done, but in my bottom of my heart I knew that it weren't the best solution.
 
@@ -30,11 +30,6 @@ The solution includes:
 * **USB-stick**: to use these programs from there
 
 # Conclusion
-I ended up minimizing my anger and discomfort of using Windows to do my coding at the University by only. I found a pretty simple solution by with highly effective. I hope this post will others that hate using Windows for coding.
-
- 
-
-
-
+I ended up minimizing my anger and discomfort of using Windows to do my coding at the University with a highly effective solution. I hope this post will others that hate using Windows for coding.
 
 
