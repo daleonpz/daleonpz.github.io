@@ -6,7 +6,7 @@ category: randomthought
 
 The other day I read a meme in Facebook that said "Happiness in intelligent people is the rarest thing", also I saw a short film based on the idea of social status, money and buying things will make you happy.  
 
-I think in I am quiet smart and I am happy. I like the life I have, I enjoy it and do what I like. And I know many smart people that are happy as well. 
+I think in I am quiet smart and I am happy. I like the life I have, I enjoy it and do what I like. And I know many smart people who are happy as well. 
 Maybe it is because we have a good balance between "dumbness" and "intelligence". Thus, the statement of intelligent people and not happy, I think it is more related to the idea of do not be confident enough to allow you to do all the "stupid" things you always wanted to do, maybe you always wanted to do some crazy stuff with dominoes.
 
 ```
