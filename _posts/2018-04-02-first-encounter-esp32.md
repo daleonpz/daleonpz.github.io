@@ -33,7 +33,7 @@ $ usermod -a -G uucp $USER
 ```
 
 # Library related
-- Assign not enough stack memory to a task when using FreeRTOS
+- Assign not enough stack memory to a task when using FreeRTOS. Check `configMINIMAL_STACK_SIZE` in the ESP32 documentation.
 
 ```c
 // For ESP-IDF applications
@@ -74,6 +74,5 @@ void app_main(){
 }
 ````
  
-
-
+- Use `vTaskStartScheduler();`.  `vTaskStartScheduler()` call is not required, as scheduler is already started before `app_main()` call
 
