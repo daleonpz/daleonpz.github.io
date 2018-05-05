@@ -9,7 +9,7 @@ I felt like I could disappear without leaving any trace at all.
 Google didn't know where I was. 
 
 ```
-(*＾▽＾)／      (´∇ﾉ｀*)ノ
+(*＾▽＾)／       (´∇ﾉ｀*)ノ
 ```
 
 It felt so great, maybe I ll start having no cellphone days.
