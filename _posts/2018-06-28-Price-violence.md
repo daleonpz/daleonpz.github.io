@@ -14,4 +14,5 @@ For example, if you beat someone up, most likely you will get some injuries in t
 =͟͟͞͞( •̀д•́)))    o(-`д´- o)     
 ```
 
-Just remember not only violence, but everything else has a price... so the question is if you are willing to pay that price. But regarding violence, I just chose not to use it, I don't want to pay that price.
+Just remember not only violence, but everything else has a price... so the question is if you are willing to pay that price. But regarding violence, I just chose not to use it, I don't want to pay that price. On the other hand, living in peace requires bravery and strength.
+Bravery to stand against the shitty world, and strength to control yourself and keep smiling from the bottom of your heart. 
