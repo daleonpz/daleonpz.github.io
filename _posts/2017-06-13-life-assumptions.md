@@ -16,7 +16,7 @@ I am pretty sure that most of the people are aware that the above statements mak
 Some reasons come to my mind:  the reality is just to hard for them, or they don't care at all because it is part of the social conventions.
 
 
-These social assumptions are doing more good than bad, since people are feeling bad, unhappy, frustated or confused  because they think it is the standard and they should fit in them. Otherwise they are doing something wrong.
+These social assumptions are doing more bad than good, since people are feeling bad, unhappy, frustated or confused  because they think it is the standard and they should fit in them. Otherwise they are doing something wrong.
 From my point of view, people should learn to manage their emotions and  they shouldn't feel bad if something that they expected to be in some way, it didn't turn out the way  they would have wanted.
 People should understand that there is always a probability that some kind of things might happen, but these things shouldn't stop them from doing and enjoying their life.
 
