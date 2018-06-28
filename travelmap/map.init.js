@@ -22,6 +22,7 @@ function colorize(obj,attr1, attr2){
         case "IT":
         case "BE":
         case "FR":
+        case "SE":
             obj.attr(attr1);
             break;
         default:
