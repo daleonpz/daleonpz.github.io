@@ -6,9 +6,9 @@ category: randomthought
 
 Ich dachte darüber, was mit uns passiert, wenn wir jemanden interessantes treffen.
 Es gibt immer ein Vorher und Nachher. 
-Bevor one jemanden triffst, man ware im Zustand A. 
+Bevor man jemanden triffst, man war im Zustand A. 
 Und dann wechselt man in den Zustand B. 
-Aber wenn man nicht in den alten Zustand zurückkheren wollte, in diesem Moment, man diese Person  als etwas Besonderes betrachtet. 
+Aber wenn man nicht in den alten Zustand zurückkehren wollte, in diesem Moment, man diese Person  als etwas Besonderes betrachtet. 
 
 
 ```
