@@ -1,5 +1,5 @@
 ---
-title: Special People 
+title: Besondere Menschen 
 layout: post
 category: schnapsideen 
 ---
