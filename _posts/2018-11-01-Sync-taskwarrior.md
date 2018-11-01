@@ -36,9 +36,16 @@ The synchronization between laptops is done, but I'm still thinking a efficient 
  Anyway, here is how I read from Dropbox. First I had to extract from the file `pending.data` the data, I think, is relevant: Project and Task. In order to do so, I made a basic script `format_tasks.sh`
 
 ```bash
+# Just for the sake of
+# this blog, this file
+# is in several lines
 #!/bin/bash
 
-cat pending.data  | sed  -r 's/.*description:"(.*)" entry.*project:"(.*)" status.*/\2: \1/g;' | sort > Pending.txt
+cat pending.data  | 
+    sed  -r 's/.*description:"(.*)" 
+        entry.*project:"(.*)" 
+        status.*/\2: \1/g;' |
+     sort > Pending.txt
 ```
 
 - The output is as follows
