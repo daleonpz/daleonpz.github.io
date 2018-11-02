@@ -16,6 +16,14 @@ $ yaourt -S dropbox
 
 A better option, in my opinion,  would be a GitHub private repo, because it's a lightweight solution, secure enough, it has version control and have no space limitation (I won't use more than a few kilobytes, but still). But I don't have money yet for that. 
 
+- Lauch Dropbox and link your PC
+
+```sh
+$ dropbox 
+```
+
+A tab will be opened in your browser, and from there you just log in and the PC will be linked.
+
 - Move tasks information to Dropbox
 
 ```sh
