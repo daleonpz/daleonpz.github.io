@@ -54,7 +54,7 @@ blockquote {
 }
 
 .wrapper {
-	max-width: 600px;
+	max-width: 50%;//1000px;
 	margin: auto;
 	padding: 60px 30px 60px 30px;
 	@media screen and (max-width: $br) {
@@ -208,6 +208,7 @@ blockquote {
 			line-height: 1.2;
 			border-radius: 3px;
 			background: $color-grey;
+                        overflow-y: auto;
 			code {
 				color: $color-black;
 				background: none;
