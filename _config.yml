@@ -2,12 +2,11 @@
 #permalink: /blog/:title
 permalink: /blog/:title
 
-
 # My variables
-name: My blog
-description: A Jekyll Theme
+name: Another blog
+description: Random thoughts that appear in the mind of a simple guy. 
+url: ttps://daleonpz.com
 google_verification: null
-
 
 # File management
 include: [".htaccess"]
