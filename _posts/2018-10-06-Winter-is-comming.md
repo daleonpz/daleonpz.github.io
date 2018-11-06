@@ -11,7 +11,7 @@ The smell of cigarette smoke, the smell of the air in my room after turning on t
 ```
                  ____________________
                 |                    |
-                |  Winter is coming |
+                |  Winter is coming  |
                 |____________________|
 ((( +д+)o=3=3`__|
 ```
