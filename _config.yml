@@ -5,7 +5,7 @@ permalink: /blog/:title
 # My variables
 name: Another blog
 description: Random thoughts that appear in the mind of a simple guy. 
-url: ttps://daleonpz.com
+url: https://daleonpz.com
 google_verification: null
 
 # File management
