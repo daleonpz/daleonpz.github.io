@@ -19,16 +19,23 @@ layout: default
     <div class="post__content"?>
         {{ content }}
     </div>
+    <div class="post__shared_buttons" align="middle">
+        {% include share_buttons.html %}
+    </div>
+    <span style="display:block; height: 50px ;"></span>
+    <div class="post__navigation" align="middle">
+        <a class="about__back" href="/{{ page.category }}" >Similar Posts</a>
+    </div>
+    <div class="PageNavigation" align="middle">
+    {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
 </div>
 
-{% include share_buttons.html %}
-
-
-<div class="PageNavigation">
-  {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
 </div>
+
+
+
