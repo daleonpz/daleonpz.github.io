@@ -1,13 +1,13 @@
-- title: fprintf(stderr, "Code issues?")
-  url: /programming
-
-- title: (*check) projects
-  url: /projects
-
 - title: Random thoughts
   url: /randomthought
 
 - title: Schnapsideen
   url: /schnapsideen
+
+- title: fprintf(stderr, "Code issues?")
+  url: /programming
+
+- title: (*check) projects
+  url: /projects
 
 
