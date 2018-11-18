@@ -4,7 +4,7 @@ title: Emptiness
 category: randomthought
 ---
 
-Have you ever feel empty? not in the bad sense, but in the sense of don't feeling anything but in peace as you were an inanimate object that is just there with any special reason as part of the environment. 
+Have you ever felt empty? not in the bad sense, but in the sense of don't feeling anything but in peace as you were an inanimate object that is just there with any special reason as part of the environment. 
 
 ```
     .
