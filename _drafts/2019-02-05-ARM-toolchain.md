@@ -89,3 +89,22 @@ C++ ABI
     C++ Application Binary Interface Standard for the ARM 64-bit Architecture describes the generic C++ ABI.
 
 
+---
+
+## steps:
+- Install st-util
+- Download [STM32CubeF7](https://www.st.com/en/embedded-software/stm32cubef7.html#getsoftware-scroll)
+- Install Openocd 
+
+
+Interesting links
+- [CMSIS](https://www.arm.com/why-arm/technologies/cmsis)
+
+
+TO read:
+makefile
+STMCube has everything I need for development --> need to put it on a makefile
+linker 
+
+
+
