@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ARM Toolchain 
+title: Basics STM32 Development: STM32CubeF7
 category: programming
 ---
 
-We will need the ARM-gcc-toolchain (download from repos ) `arm-none-eabi-gcc`
+We will need the ARM-gcc-toolchain (download from repos) `arm-none-eabi-gcc`
 
 more:
 
