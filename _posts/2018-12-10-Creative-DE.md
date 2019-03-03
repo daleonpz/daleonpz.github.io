@@ -7,7 +7,7 @@ category: schnapsideen
 
 Letzten Freitag war ich in einer Interkulturellen Veranstaltung in Dortmund. 
 Es gab ein Workshop über "Weihnachtsdekoration" und ich habe daran teilgenommen.
-Sie habe man beigebracht, wie man "Weihnachtsdekoration" machen kann und wenn man will, er könnte eine bestimmte Dekoration oder etwas Neues machen. 
+Sie haben man beigebracht, wie man "Weihnachtsdekoration" machen kann und wenn man will, er könnte eine bestimmte Dekoration oder etwas Neues machen. 
 Also, ich habe entschieden, kreativ zu sein. 
 
 ```
