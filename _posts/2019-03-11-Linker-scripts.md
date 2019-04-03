@@ -22,6 +22,7 @@ Each object file has a list of sections:
  ![ELF object file](/images/posts/linking-basics-1.png)
 *Image obtained from this [site](https://people.cs.pitt.edu/~xianeizhang/notes/Linking.html)*
 
+* `.init` is the initialization code before the `main` in C such as set to zero global variables or defined the interrupt vector table. 
 * `.text` is the machine code of the compiled program
 * `.rodata` read-only data, such as `const char`
 * `.data`  global variables that have been initialized
@@ -203,6 +204,7 @@ SECTIONS
 }
 ``` 
 
+
 Things to note:
 - `.`: is the **location counter**, and  always refers to a location in an output section
 - `symbol = expression`: assign _expression_ to this _symbol_
@@ -210,6 +212,11 @@ Things to note:
 - `>RAM AT> FLASH`: The linker will normally set the LMA equal to the VMA. You can change that by using the `AT` keyword. The expression lma that follows the AT keyword specifies the load address of the section 
 - `*(pattern)`: `*` is a [wildcard pattern](http://www.scoberlin.de/content/media/http/informatik/gcc_docs/ld_3.html#SEC23). For example: `*(.text)` means _put here all the .text sections_. 
 - `KEEP(symbol)`: is a command keeps the symbol, when link-time garbage collection `--gc-sections` is in use 
+
+In conclusion, the job of the linker can be summarized as follows:
+
+![Executable file](/images/posts/linker_script.png)
+
 
 # Final words
 If there are files such as `STM32F746NGHx_FLASH.ld`, why should I bother to learn linker scripting language? 

@@ -40,6 +40,7 @@ The basic structure of an ELF file is as follow:
 ![ELF object file](/images/posts/linking-basics-1.png)
 *Image obtained from this [site](https://people.cs.pitt.edu/~xianeizhang/notes/Linking.html)*
 
+* `.init` is the initialization code before the `main` in C such as set to zero global variables or defined the interrupt vector table. 
 * `.text` is the machine code of the compiled program
 * `.rodata` read-only data, such as `const char`
 * `.data`  global variables that have been initialized
