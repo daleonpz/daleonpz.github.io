@@ -5,13 +5,13 @@ category: programming
 ---
 
 I was learning about how to program microcontrollers in C and I wasn't aware about the importance of startup files, vector tables and the linker.
-Basically, this three concepts are needed in order to understand how a microcontroller run an applicaiton. 
+Basically, this three concepts are needed in order to understand how a microcontroller run an application. 
 I already explained the linker script in a previous [post]({% post_url 2019-03-11-Linker-scripts %}). I recommend to read that post before, in order to understand the next concepts.
 
 
-# C runtime environment and startup file
+# C Runtime environment and startup file
 C assumes that  _heap_ and _stack_ are already defined, and also that there is a `main` function (check [Hacking function main]({% post_url 2017-03-30-hack-main  %})) 
-Thus, one should setup the C runtime environment  in order to run an application, and the startup file is the way to go.
+Thus, one should setup the C run time environment  in order to run an application, and the startup file is the way to go.
 It's usually written in assembly because it's hardware dependent.
 This startup file must do at least the following: 
 
@@ -95,7 +95,7 @@ The `reset_handler` section must be defined as `ENTRY_POINT` in the linker in or
 
 # Vector Table
 The vector table contains the reset value of the stack pointer, and the start addresses  for all exception handlers including the **reset handler**.
-The vector table is described in detail in each microcontroller reference manualr, and it's usually given by the vendor, but you can also write your own, you just only be aware of the addresses.
+The vector table is described in detail in each microcontroller reference manual, and it's usually given by the vendor, but you can also write your own, you just only be aware of the addresses.
 
 An snapshot of the vector table for the microcontroller STM32F0 is shown below:
 
@@ -138,7 +138,7 @@ vtable:
 Note that `.word` means that the vector is 16-bits long. 
 
 # Example
-I will show parts of an ELF file dissambly  based on a C code for STM32F0 microcontrollers:
+I will show parts of an ELF file disassembly  based on a C code for STM32F0 microcontrollers:
 
 ```nasm
 main.elf:     file format elf32-littlearm
@@ -183,12 +183,12 @@ Disassembly of section .dynamic_allocations:
 ```
 
 Things to notice:
-- **STACK POINTER** is `0x2000 1000`, and defined at the beginnig of `vtable`
+- **STACK POINTER** is `0x2000 1000`, and defined at the beginning of `vtable`
 - **PROGRAM COUNTER** is `0x0800 00c5`, in reality is `0x0800 00c4` but the least-significant bit should be 1, indicating that the code in that section  is written in Thumb code. Check vector table snapshot above.
 - **HEAP** starts at `0x2000 0000` because it's a 4KB SRAM memory. Remember that HEAP is for  dynamic memory allocations  such as `malloc` or `calloc`
 - The start up program  jumps from `reset_handler` to `copy_sidata_loop` to `reset_bss_loop` and to `main`. 
 
-An picture of the memory map is shown below:
+A picture of the memory map is shown below:
 
 ![Memory map](/images/posts/start_memorymap.png)
 
