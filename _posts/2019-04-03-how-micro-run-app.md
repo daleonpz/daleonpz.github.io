@@ -185,7 +185,7 @@ Disassembly of section .dynamic_allocations:
 Things to notice:
 - **STACK POINTER** is `0x2000 1000`, and defined at the beginnig of `vtable`
 - **PROGRAM COUNTER** is `0x0800 00c5`, in reality is `0x0800 00c4` but the least-significant bit should be 1, indicating that the code in that section  is written in Thumb code. Check vector table snapshot above.
-- HEAP starts at `0x2000 0000` because it's a 4KB SRAM memory. Remember that HEAP is for  dynamic memory allocations  such as `malloc` or `calloc`
+- **HEAP** starts at `0x2000 0000` because it's a 4KB SRAM memory. Remember that HEAP is for  dynamic memory allocations  such as `malloc` or `calloc`
 - The start up program  jumps from `reset_handler` to `copy_sidata_loop` to `reset_bss_loop` and to `main`. 
 
 An picture of the memory map is shown below:
