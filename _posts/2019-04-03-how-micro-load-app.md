@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How do microcontrollers run an application?
+title: How do microcontrollers load an application?
 category: programming
 ---
 
