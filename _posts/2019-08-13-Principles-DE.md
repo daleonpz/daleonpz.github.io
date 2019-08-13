@@ -4,7 +4,7 @@ title: Lebensprinzipien
 category: schnapsideen 
 ---
 
-Inspiriert von diesem Viedo: [Principles For Success by Ray Dalio](https://www.youtube.com/watch?v=B9XGUpQZY38), ich habe entschiedendie Prinzipen zu nennen, die mein Leben regeln. 
+Inspiriert von diesem Video: [Principles For Success by Ray Dalio](https://www.youtube.com/watch?v=B9XGUpQZY38), ich habe entschieden, die Prinzipen zu nennen, die mein Leben regeln. 
 In zukünftigen Posts, ich werde sie erklären. 
 
 1. Es einfach halten
