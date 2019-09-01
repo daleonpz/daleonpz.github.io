@@ -29,4 +29,5 @@ highlighter: rouge
 page_gen:
   - data: books
     name: key
-    dir: /goto
+    dir: goto
+    extention: html
