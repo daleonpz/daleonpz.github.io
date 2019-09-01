@@ -1,13 +1,11 @@
-- title: Random thoughts
+- title: Random thoughts (English)
   url: /randomthought
 
-- title: Schnapsideen
+- title: Schnapsideen (Deutsch)
   url: /schnapsideen
 
-- title: fprintf(stderr, "Code issues?")
+- title: Programming (Extra)
   url: /programming
 
-- title: (*check) projects
-  url: /projects
 
 
