@@ -6,11 +6,11 @@ category: programming
 
 I was learning about how to program microcontrollers in C and I wasn't aware about the importance of startup files, vector tables and the linker.
 Basically, this three concepts are needed in order to understand how a microcontroller run an application. 
-I already explained the linker script in a previous [post]({% post_url 2019-03-11-Linker-scripts %}). I recommend to read that post before, in order to understand the next concepts.
+I already explained the linker script in a previous [post]({% post_url programming/2019-03-11-Linker-scripts %}). I recommend to read that post before, in order to understand the next concepts.
 
 
 # C Runtime environment and startup file
-C assumes that  _heap_ and _stack_ are already defined, and also that there is a `main` function (check [Hacking function main]({% post_url 2017-03-30-hack-main  %})) 
+C assumes that  _heap_ and _stack_ are already defined, and also that there is a `main` function (check [Hacking function main]({% post_url programming/2017-03-30-hack-main  %})) 
 Thus, one should setup the C run time environment  in order to run an application, and the startup file is the way to go.
 It's usually written in assembly because it's hardware dependent.
 This startup file must do at least the following: 

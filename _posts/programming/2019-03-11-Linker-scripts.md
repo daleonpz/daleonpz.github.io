@@ -4,7 +4,7 @@ title: Linker scripts
 category: programming
 ---
 
-I while ago I wrote a post about [linking basics]({% post_url 2017-02-11-linking-basics %}), where I talked about ELF files and their structure. 
+I while ago I wrote a post about [linking basics]({% post_url programming/2017-02-11-linking-basics %}), where I talked about ELF files and their structure. 
 This post is based on chapter 7 from the book [Computer Systems: A Programmer's Perspective ](https://www.amazon.com/Computer-Systems-Programmers-Perspective-3rd/dp/013409266X/ref=sr_1_1?ie=UTF8&qid=1490718500&sr=8-1&keywords=computer+systems) and this [document](http://www.scoberlin.de/content/media/http/informatik/gcc_docs/ld_toc.html)
  
 
