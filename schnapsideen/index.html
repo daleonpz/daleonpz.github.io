@@ -2,10 +2,12 @@
 layout: default
 title: Schnapsideen 
 ---
-
 <div class="header">
-    <h1>-----------------<br> &nbsp;&nbsp;&nbsp;Schnapsideen <br>-----------------</h1>
-    <ul>
+    <hr>
+    <h1 align=middle> Schnapsideen</h1>
+    <h2 align=middle> Ich lass meinen Gedanken Lauf</h2>
+    <hr>    
+    <ul align=middle>
         {% for item in site.data.navigation %}
         <li>
             <a href="{{ item.url }}">{{ item.title }}</a>
@@ -13,6 +15,7 @@ title: Schnapsideen
         {% endfor %}
     </ul>
 </div>
+
 <div class="blog">
     <h1>Posts:</h1>
     <ul>

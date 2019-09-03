@@ -2,10 +2,12 @@
 layout: default
 title: Programming
 ---
-
 <div class="header">
-    <h1>-----------------<br> &nbsp;&nbsp;&nbsp;Programming <br>-----------------</h1>
-    <ul>
+    <hr>
+    <h1 align=middle> Programming</h1>
+    <h2 align=middle> An off-topic</h2>
+    <hr>    
+    <ul align=middle>
         {% for item in site.data.navigation %}
         <li>
             <a href="{{ item.url }}">{{ item.title }}</a>
@@ -13,6 +15,7 @@ title: Programming
         {% endfor %}
     </ul>
 </div>
+
 <div class="blog">
     <h1>Posts:</h1>
     <ul>

@@ -3,8 +3,11 @@ layout: default
 ---
 
 <div class="header">
-    <h1>-----------------<br> &nbsp;&nbsp;&nbsp;Another Blog <br>-----------------</h1>
-    <ul>
+    <hr>
+    <h1 align=middle> Random thoughts </h1>
+    <h2 align=middle> from my wandering mind </h2>
+    <hr>    
+    <ul align=middle>
         {% for item in site.data.navigation %}
         <li>
             <a href="{{ item.url }}">{{ item.title }}</a>
@@ -13,11 +16,11 @@ layout: default
     </ul>
 </div>
 <div class="blog">
-    <h1>Topics:</h1>
+    <h1>Entries:</h1>
     <ul>
        {% for item in site.data.topics_navigation %} 
         <li>
-        * <a href="{{ item.url }}">{{ item.title }}</a>
+        <a href="{{ item.url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
     </ul>
