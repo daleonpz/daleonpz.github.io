@@ -17,7 +17,7 @@ here.
 ```
 
 In the end, it is not about how long you can live, it is about how well you lived. 
-Live on your own terms. In my case these are mye principles:
+Live on your own terms. In my case these are my principles:
 
 * Live in the present, it is the only moment that I can do something. 
 * Avoid boredom. Feel alive, I am here to enjoy this game called life.
