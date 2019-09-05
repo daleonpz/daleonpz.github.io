@@ -4,14 +4,17 @@ title: About
 ---
 
 Hi there ᶘ ᵒᴥᵒᶅ,  
-I want to inspire you to let your mind wander and to embrace the uncertain path your mind may take.
-Each post is result of  moments of solitude in which I learned something about myself. 
-I encourage you to do the same.
+I want to inspire you to let your mind wander. 
+Embrace the uncertain path your mind may take. 
+I learned so much about myself doing it. 
 
-If you just want to say hi, send me an [email](mailto:daleonpz@gmail.com) or a message to my sexy [Instagram](https://www.instagram.com/daleonpzinst). 
+That's why I encourage you to do the same.
 
 
 ![about](/images/about.jpg )
+Wanna say hi? Send me an [email](mailto:daleonpz@gmail.com).<br>
+Or write me in [Instagram](https://www.instagram.com/daleonpzinst). 
+
 
 Have a nice day! 
 
