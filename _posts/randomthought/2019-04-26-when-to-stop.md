@@ -2,14 +2,14 @@
 title: Know when to stop
 layout: post
 category: randomthought
+description: Sometimes you need to know when to stop. 
 ---
 
 Sometimes you need to know when to stop. 
-You opened a door just to see what was behind it and that experience could be amazing or bad, but at the end you know you really enjoyed it because it was excited as hell to do something new.
 
-That memory or lesson will be with you forever. 
-The reason behind it is that a vigorous emotion makes you nostalgic when you noticed it is over.
-You must accept that moment of your life is gone and forcing it will only make it something you will regret for sure. 
+Have you ever enjoyed that thrilling moment when you were about to experience something new? So you opened a door just to see what was behind it.  You were a kid again at that moment.  Because the excitement was over all body. And that memory will be with you forever.
+
+The reason behind is that a vigorous emotion makes you nostalgic. When you notice it’s over. You must accept that moment of your life is gone. And you should go on. Otherwise  you will regret for sure. 
 
 ```
  ----------------------
