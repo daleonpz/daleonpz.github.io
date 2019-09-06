@@ -4,7 +4,8 @@ title: Details of C that every not so noob forgets
 category: programming
 ---
 
-I already wrote a post about [Details of C that every noob forgets](https://daleonpz.com/blog/C-noob-details). In this post I will write about more advanced details. I hope this will improve your understand of the obscure C. By the way, for the a complete review I recommend to read [Expert C Programming: Deep C Secrets](https://www.amazon.com/Expert-Programming-Peter-van-Linden/dp/0131774298/ref=sr_1_1?ie=UTF8&qid=1497536153&sr=8-1&keywords=expert+C) by  Peter van der Linden or my [notes](https://github.com/daleonpz/Notes/blob/master/Books/Expert-C-programming.md).
+I already wrote a post about [Details of C that every noob forgets]({% post_url programming/2017-04-10-C-noob-details %}).
+In this post I will write about more advanced details. I hope this will improve your understand of the obscure C. By the way, for the a complete review I recommend to read [Expert C Programming: Deep C Secrets](https://www.amazon.com/Expert-Programming-Peter-van-Linden/dp/0131774298/ref=sr_1_1?ie=UTF8&qid=1497536153&sr=8-1&keywords=expert+C) by  Peter van der Linden or my [notes](https://github.com/daleonpz/Notes/blob/master/Books/Expert-C-programming.md).
 
 # WTF? `const` is not constant
 The keyword `const` doesn't mean _constant expression_ , it only gives the status of **read-only**.
