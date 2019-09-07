@@ -7,7 +7,7 @@ description: “The principles you know determines what you get”
 
 “The principles you know determines what you get” (Sunday Adelaja)
 
-Inspired by [Principles For Success by Ray Dalio](https://www.youtube.com/watch?v=B9XGUpQZY38), I decided to list the principles that rule my life. 
+Inspired by [Principles For Success by Ray Dalio](https://www.youtube.com/watch?v=B9XGUpQZY38), I decided to list the principles. 
 
 1. Keep it simple
 2. Be calm and relaxed
