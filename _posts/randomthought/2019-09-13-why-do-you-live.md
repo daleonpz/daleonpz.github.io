@@ -14,9 +14,9 @@ description:  Don't try to understand the meaning of life, it is pointless.  The
 
 ``` 
 
-When was the last time you left alive?
+When was the last time you feel alive?
 
-I ask myself the same question at least once a year. And you what... 
+I ask myself the same question at least once a year. And guess what... 
 
 So far, I couldn't find a satisfactory answer.
 
