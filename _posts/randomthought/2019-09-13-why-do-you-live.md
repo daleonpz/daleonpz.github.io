@@ -14,7 +14,7 @@ description:  Don't try to understand the meaning of life, it is pointless.  The
 
 ``` 
 
-When was the last time you feel alive?
+When was the last time you felt alive?
 
 I ask myself the same question at least once a year. And guess what... 
 
@@ -22,7 +22,7 @@ So far, I couldn't find a satisfactory answer.
 
 Should we start then with... what's the meaning of life?
 
-You and I are not the first ask that question, and we are going to be the last. 
+You and I are not the first to ask that question, and we are not going to be the last. 
 From Socrates and Confucius to  Camus and Sartre, many people thought about the answer.
 
 However, you live may have no specific meaning. Do you think about it? 
