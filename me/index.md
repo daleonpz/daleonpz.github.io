@@ -4,17 +4,15 @@ title: About
 ---
 
 Hi there ᶘ ᵒᴥᵒᶅ,  
-I want to inspire you to let your mind wander. 
-Embrace the uncertain path your mind may take. 
-I learned so much about myself doing it. 
+Sometimes you have questions popping up in your head with no reason.
+You are not the only one. 
+That's why I started this blog. 
 
-That's why I encourage you to do the same.
+Here I share with you my deepest thoughts. 
+When you are ready to learn more about yourself.
+All you have to do is read my last [post]({% for post in site.categories.randomthought limit: 1%}{{ post.url }}   {% endfor %}).
 
-
-![about](/images/about.jpg )
-Wanna say hi? Send me an [email](mailto:daleonpz@gmail.com).<br>
-Or write me in [Instagram](https://www.instagram.com/daleonpzinst). 
-
+But be careful, what you read is enjoyable and almost eye-opener. 
 
 Have a nice day! 
 
