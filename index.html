@@ -17,22 +17,26 @@ layout: default
 </div>
 
 <div class="blog">
-    <h1>Latest post:</h1>
+    <h1>New posts:</h1>
     <ul>
-        {% for post in site.categories.randomthought limit: 1%}
+        {% for post in site.categories.randomthought limit: 3%}
         <li>
             <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>
+</div>
+<div class="blog">
+    <h1>Neue Posts:</h1>
     <ul>
-        {% for post in site.categories.schnapsideen limit: 1%}
+        {% for post in site.categories.schnapsideen limit: 3%}
         <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a> (German)
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>
 </div>
+<!--
 <div class="blog">
     <h1>Categories:</h1>
     <ul>
@@ -43,3 +47,5 @@ layout: default
         {% endfor %}
     </ul>
 </div>
+
+-->
