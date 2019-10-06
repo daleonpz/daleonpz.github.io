@@ -1,12 +1,5 @@
 - title: home
   url: /
 
-- title: about
-  url: /me
-
-
-- title: email
-  url: mailto:daleonpz@gmail.com
-
 - title: search
   url: /search
