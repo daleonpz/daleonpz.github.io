@@ -41,5 +41,7 @@ Because we are constantly thinking on how much we don't want to die.
 Maybe we should do the same. 
 When we are close to our death. 
 
-**<center> Enjoy and contemplate OUR SUNSET  </center>**
+**<center> Enjoy and contemplate YOUR SUNSET  </center>**
+
+When your time comes...
 
