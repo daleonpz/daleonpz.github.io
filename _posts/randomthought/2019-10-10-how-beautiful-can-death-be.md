@@ -35,8 +35,8 @@ Maybe the _SUNSET_ of our life is unbelievable and beautiful experience.
 But we may miss it.
 Because we can't take breaks to look at our life. 
 
-Let me tell you something. When your time comes...
 
 **<center> Enjoy and contemplate YOUR SUNSET  </center>**
 
+When your time comes...
 
