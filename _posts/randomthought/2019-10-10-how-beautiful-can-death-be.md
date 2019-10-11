@@ -33,15 +33,15 @@ But think about.. Aren't  these two events incredibly beautiful to look at?
 So, why not see death in the same way?
 
 Maybe the _SUNSET_ of our life is unbelievable and beautiful experience. 
-But we may miss it. 
-Because we are constantly thinking on how much we don't want to die.
+But we may miss it.
+Because we can't take breaks to look at our life. 
 
-> Live Your life. Do Your Work. Then Take Your Hat - Henry David Thoreau
+> Call for the grandest of all earthly spectacles, what is that? It is the sun going to his rest. ― Thomas de Quincey 
 
-Maybe we should do the same. 
-When we are close to our death. 
+Think about it...
+
+When your time comes...
 
 **<center> Enjoy and contemplate YOUR SUNSET  </center>**
 
-When your time comes...
 
