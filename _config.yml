@@ -12,6 +12,8 @@ google_verification: null
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
 
+gems:
+  - jekyll-seo-tag
 
 # Sass
 sass:
