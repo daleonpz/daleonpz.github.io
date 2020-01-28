@@ -15,6 +15,8 @@ exclude: ["README.md", "LICENSE"]
 gems:
   - jekyll-seo-tag
 
+future: false
+
 # Sass
 sass:
   style: :compressed
