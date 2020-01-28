@@ -13,7 +13,7 @@ Not even a **Thank you**.
 
 Maybe that was the main reason I lost some friends.
 
-However, in 2013 I started to travel the world. USA, Thailand, Singapore, Europe, Morocco... and so on, and  also to **notice something**...
+However, in 2013 I started to travel the world. USA, Thailand, Singapore, Europe, Morocco and so on, and  also to **notice something**...
 
 I do parkour for a long time. And  parkour community, I would say, is supportive. Back then  it was even more.
 
