@@ -43,9 +43,9 @@ When I did those things without they even asked me to do so. **I felt great**.
 
 That's when my selfish behavior changed... 
 
-Don't get me wrong. I'm still selfish. But now I give value to people's life because I want to. 
+Don't get me wrong. I'm still selfish. But now I give also value to people's life. And I enjoy doingit. 
 
-Live gives you opportunities to improve or change your life. The best part is that you don't even have to ask for them. 
+Life gives you opportunities to improve or change your life. The best part is that you don't even have to ask for them. 
 
 Your job is only to be aware of them and take them. 
 
