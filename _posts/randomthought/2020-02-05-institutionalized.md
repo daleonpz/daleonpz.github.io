@@ -2,7 +2,7 @@
 layout: post
 title: Institutionalized
 category: randomthought
-description:  Look death as it were a beautiful orange sunset.
+description:"These walls are funny. First you hate ’em. Then you get used to ’em. Enough time passes, you get so you depend on them. That’s institutionalized.” — Red
 ---
 
 > “These walls are funny. First you hate ’em. Then you get used to ’em. Enough time passes, you get so you depend on them. That’s institutionalized.” — Red (Shawshank Redemption)
