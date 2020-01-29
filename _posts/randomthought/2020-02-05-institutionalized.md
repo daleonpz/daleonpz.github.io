@@ -2,7 +2,7 @@
 layout: post
 title: Institutionalized
 category: randomthought
-description:"These walls are funny. First you hate ’em. Then you get used to ’em. Enough time passes, you get so you depend on them. That’s institutionalized.” — Red
+description: Look at your current life and ask yourself. Do I really want this? Do I really want to be in the same situation in 5, 10 or  20 years?
 ---
 
 > “These walls are funny. First you hate ’em. Then you get used to ’em. Enough time passes, you get so you depend on them. That’s institutionalized.” — Red (Shawshank Redemption)
