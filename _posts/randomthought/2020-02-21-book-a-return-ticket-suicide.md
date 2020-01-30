@@ -42,6 +42,16 @@ The short answer is...**Freedom**.
 I want to have the freedom to choose for how long I want to live. **I want to choose my upper limit**.
 That's all...nothing deeper than that.
 
+```
+           __________________________
+          |                          |
+          |  55 seems a good number! |
+          |__________________________|
+(ノ^∇^)  _____|
+```
+
+
+
 But, what if I die before my _due date_?
 
 I don't care.
