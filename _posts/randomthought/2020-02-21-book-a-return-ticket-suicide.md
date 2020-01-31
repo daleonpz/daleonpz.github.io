@@ -2,7 +2,7 @@
 layout: post
 title: Suicide - Book a return ticket 
 category: randomthought
-description: You are going to lose money no matter what. It's a fact. But you can  make always more money. And that Depends 100% on you. 
+description: Suicide is a choice.
 ---
 
 **<center> DISCLAIMER.</center>**
@@ -54,15 +54,10 @@ That's all...nothing deeper than that.
 
 But, what if I die before my _due date_?
 
-I don't care.
+I don't care. I'm okay with that. I know I cannot control everything.
 
-For me, **the quality of my life is much more important** than its duration.  
+For me, **the quality of my life is much more important** than its duration.
 
 If you want to read more about how I see life. Check this [post]({% post_url randomthought/2017-05-31-lets-play %}).
-
-
-
-
-
 
 
