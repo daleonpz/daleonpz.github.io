@@ -9,6 +9,11 @@ url: https://anotherwanderingmind.com
 locale: en-US
 google_verification: null
 
+# Social Media
+twitter_username: awmstrips
+facebook_username: awmstrips
+instagram_username: awmstrips
+
 # File management
 include: [".htaccess"]
 exclude: ["README.md", "LICENSE"]
