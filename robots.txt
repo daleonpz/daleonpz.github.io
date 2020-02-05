@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://anotherwanderingmind.com/sitemap.xml
+Sitemap: https://awmstrips.com/sitemap.xml
