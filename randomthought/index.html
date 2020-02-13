@@ -1,15 +1,13 @@
 ---
 layout: default
-title: Random thoughts
-description: Entries for random thoughts
+title: awmstrips posts
+description: awmstrips posts
 ---
 
 <div class="header">
+   <img src="/images/logo.png" alt="awmstrips banner">
     <hr>
-    <h1 align=middle> Another Wandering Mind </h1>
-    <h2 align=middle> Reflections and Glimpses </h2>
-    <hr>    
-    <ul align=middle>
+     <ul align=middle>
         {% for item in site.data.navigation %}
         <li>
             <a href="{{ item.url }}">{{ item.title }}</a>
