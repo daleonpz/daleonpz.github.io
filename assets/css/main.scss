@@ -76,6 +76,10 @@ blockquote {
                 font-weight: bold;
 		margin-bottom: 0;
 	}
+        h2 {
+                font-size: 1.5em;
+		margin-bottom: 0;
+        }
         i {
                 font-style: italic;
         }
@@ -93,6 +97,12 @@ blockquote {
 	padding-bottom: 30px;
 	h1 {
 		font-size: 1.4em;
+		margin-bottom: 5px;
+	}
+        h2 {
+                font-weight: bold;
+                font-size: 1.4em;
+                text-align: center;
 		margin-bottom: 5px;
 	}
 }
@@ -260,7 +270,6 @@ blockquote {
 		}
             }
 }
-
 
 ul.share-buttons{
   list-style: none;
