@@ -18,7 +18,9 @@
         <meta name="google-site-verification" content="{{ site.google_verify }}">
     {% endif %}
 
-    {% include analytics.html %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
 
     <link rel="icon" href="/assets/img/favicon.png">
     <link rel="stylesheet" 

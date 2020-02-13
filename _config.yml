@@ -15,7 +15,7 @@ facebook_username: awmstrips-101895098046570
 instagram_username: awmstrips
 
 # Google services
-google_analytics: UA—147073620-3
+google_analytics: UA-147073620-3
 
 # File management
 include: [".htaccess"]
