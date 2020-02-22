@@ -7,6 +7,11 @@ description: Look at your current life and ask yourself. Do I really want this? 
 
 > “These walls are funny. First you hate ’em. Then you get used to ’em. Enough time passes, you get so you depend on them. That’s institutionalized.” — Red (Shawshank Redemption)
 
+
+![Institutionalized - comic](/images/posts/awmstrips/institutionalizied-ful.png)
+
+
+
 _Shawshank Redemption_ is my favourite film. I watched at least 10 times in the last 5 years. 
 And that phrase is carved on my brain.
 
