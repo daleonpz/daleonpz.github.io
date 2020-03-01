@@ -15,6 +15,10 @@ You can also contact the following [hotlines](http://www.suicide.org/suicide-hot
 
 **<center> The post starts here...</center>**
 
+
+![suicide - comic](/images/posts/awmstrips/suicide.png)
+
+
 I think every person has thought at least one time about committing suicide. 
 Reasons and opinions differ from person to person.
 
