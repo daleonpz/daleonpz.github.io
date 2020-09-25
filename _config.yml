@@ -1,5 +1,4 @@
 # Blog settings
-#permalink: /blog/:title
 permalink: /blog/:title
 
 # My variables
@@ -26,6 +25,12 @@ gems:
 
 future: false
 
+plugins: [jekyll-paginate]
+
+paginate: 10
+paginate_path: "/randomthought/page/:num/"
+
+
 # Sass
 sass:
   style: :compressed
@@ -39,8 +44,3 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
-page_gen:
-  - data: books
-    name: key
-    dir: goto
-    extention: html

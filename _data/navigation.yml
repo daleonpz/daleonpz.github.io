@@ -1,5 +1,9 @@
-- title: home
+- title: Home
   url: /
 
-- title: search
-  url: /search
+- title: Posts
+  url: /randomthought
+
+- title: About
+  url: /me
+

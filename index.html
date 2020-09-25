@@ -2,46 +2,26 @@
 layout: default
 ---
 
-<div class="header">
-
-    <img src="/images/logo.png" alt="awmstrips banner">
+<div class="header" align=middle>
     <hr>
-    <ul align=middle>
-        {% for item in site.data.navigation %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-
-    <br><br>
-    Hi! 
-    Welcome to <b>AWMStrips.com</b>. <br> 
-    Here you'll read comic strips with thoughts and stories about society, life and me. <br><br>
-
-    But be careful, what you will read is enjoyable and fun :). <br><br>
-
-    If you are ready. 
-    All you have to do is start reading my last 
-        {% for post in site.categories.randomthought limit: 1%}
-            <a href = "{{ post.url }}">post</a>
-        {% endfor %}.<br><br>
-
-
-    Smile and Enjoy This Day! 
-
+    <center><h1>AWM Strips</h1></center>
+    <center><h2> Thoughts and Stories </h2></center>
+    <center><h2> Society. Life. Me  </h2></center>
+    <hr>
     
+    <p>
+    I write about any interesting thought that crosses my mind  <br><br>
+    Or any story that I want to share.<br> <br>
+    <a href="/me"/ align="middle">Who am I?</a>
+
+    </p>
+    <hr>
+    <center><h1>Recent Posts</h1></center>
+    <hr>
+
 </div>
-<div class="header__subscription" align="middle">
-        {% include subscription.html %}
-    </div>
+<div class="blog">
 
-
-
-    <div class="blog">
-    <hr>
-    <h2>New posts</h2>
-    <hr>
     <ul>
         {% for post in site.categories.randomthought limit: 3%}
         <li>
@@ -52,9 +32,15 @@ layout: default
 </div>
 
 
-
-<div class="header__social_media" align="middle">
 <hr>
-        {% include social_media.html %}
+
+<div class="header">
+
+    <p>
+    If you want to say hello ...
+ 
+    Send me a mail to <a href="mailto:awmstrips@awmstrips.com">awmstrips@awmstrips.com</a> <br><br>
+    </p>
 </div>
+
 

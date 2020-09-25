@@ -27,13 +27,42 @@
         href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml" />
-    {% seo %}
 </head>
 
 <body>
 
     <div class="wrapper">
         <a href="{{ site.url }}/feed.xml"><img src="/images/RSS.png" align="middle" alt="rss feed"/></a>
+        
+
+        <div id="search-icon" align="right">
+            <a href="{{ site.url }}/search">
+                 Search
+                 <img alt="Qries" src="/assets/img/search-icon.png" width=25" >
+            </a>
+        </div>
+
+
+        <script type='text/javascript'>
+            var path = window.location.pathname;
+            var page = path.split("/").pop();
+            var x = document.getElementById("search-icon");
+            var re = new RegExp("^/programming/.*$");
+
+            console.log(path)
+            console.log(re.test(path))
+            if ( re.test(path) ){
+                x.style.display = 'block';
+            }
+            else{
+                x.style.display = 'none';
+            }
+        </script>
+
+        <div class="wrapper__navigation" align="middle">
+            {% include navigation.html %}
+        </div>
+     
         {{ content }}
     </div>
 
@@ -42,6 +71,8 @@
         <a href = "{{ site.url }}/impressum">Impressum</a>
     </div>
 
+
+    <div id="amzn-assoc-ad-0001a57c-4948-4284-85fa-78ad8c85fe40"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=0001a57c-4948-4284-85fa-78ad8c85fe40"></script>
 </body>
 
 </html>
