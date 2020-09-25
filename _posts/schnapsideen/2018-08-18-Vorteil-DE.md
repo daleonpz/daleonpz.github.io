@@ -1,5 +1,5 @@
 ---
-title: Vorteile der neuen Sprache
+title: (DE) Vorteile der neuen Sprache
 layout: post
 category: schnapsideen 
 ---

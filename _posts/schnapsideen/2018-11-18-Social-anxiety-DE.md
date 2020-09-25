@@ -1,5 +1,5 @@
 ---
-title: Soziale Angst 
+title: (DE) Soziale Angst 
 layout: post
 category: schnapsideen 
 ---

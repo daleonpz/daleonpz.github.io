@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Warum lebst du? 
+title: (DE) Warum lebst du? 
 category: schnapsideen 
 description: Wann hast du das letzte Mal dein Leben nachgedacht?
 ---

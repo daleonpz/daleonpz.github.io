@@ -1,5 +1,5 @@
 ---
-title: Erkennen, wann man aufhören muss 
+title: (DE) Erkennen, wann man aufhören muss 
 layout: post
 category: schnapsideen 
 ---

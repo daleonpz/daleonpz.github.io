@@ -1,5 +1,5 @@
 ---
-title: Schöpferischen Prozess 
+title: (DE) Schöpferischen Prozess 
 layout: post
 category: schnapsideen 
 description: Kreativ sein, ohne zu wissen, was die Leute sagen. 

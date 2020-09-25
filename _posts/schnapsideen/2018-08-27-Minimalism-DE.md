@@ -1,5 +1,5 @@
 ---
-title: Minimalismus?
+title: (DE) Minimalismus?
 layout: post
 category: schnapsideen 
 ---
