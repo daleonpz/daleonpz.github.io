@@ -20,7 +20,7 @@ Because you feel "safe" in your current situation, even if you hate it or compla
 
 Remember...
 
-**<center> You always have a CHOICE.</center>**
+> You always have a CHOICE.
 
 ```
          __________________

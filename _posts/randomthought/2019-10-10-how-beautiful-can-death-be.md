@@ -22,7 +22,7 @@ Today I was looking the sunset through my window.
 It's October in Germany and I had this amazing view of the orange sky and falling leafs over the water. 
 
 
-**<center>... I started thinking about death. </center>**
+> ... I started thinking about death. 
 
 Sunsets and falling leafs are  constant death reminders.
 But aren't  these two events incredibly beautiful to look at? 
@@ -36,7 +36,7 @@ But we may miss it.
 Because we can't take breaks to look at our life. 
 
 
-**<center> Enjoy and contemplate YOUR SUNSET  </center>**
+> Enjoy and contemplate YOUR SUNSET.
 
 When your time comes...
 

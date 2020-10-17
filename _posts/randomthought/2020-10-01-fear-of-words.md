@@ -13,7 +13,7 @@ As a rule of thumb, we shouldn't use violence at all.
 I talk about the price of violence in another [post]({% post_url
 randomthought/2018-06-28-Price-violence %}).
 
-**<center> Words are a powerful tool... But words can also "hurt". </center>**
+> Words are a powerful tool... But words can also "hurt".
 
 But it depends a lot on the receiver person. Whereas physical violence is
 tangible. Words damage is subjective.
@@ -35,7 +35,7 @@ Same words, different outcomes.
 
 Some people say that... 
 
-**<center> It's doesn't matter what you say, you will for sure offense somebody.</center>**
+> It's doesn't matter what you say, you will for sure offense somebody.
 
 
 That's why it would help to focus on developing emotional stable people. 

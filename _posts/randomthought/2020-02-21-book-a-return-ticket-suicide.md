@@ -5,7 +5,7 @@ category: randomthought
 description: Suicide is a choice.
 ---
 
-**<center> DISCLAIMER.</center>**
+> DISCLAIMER.
 
 **This post has NO intention of encouraging suicide.**
 
@@ -13,7 +13,7 @@ If you are feeling suicidal please visit this [site]([https://metanoia.org/suici
 
 You can also contact the following [hotlines](http://www.suicide.org/suicide-hotlines.html). There are hotlines for many countries.
 
-**<center> The post starts here...</center>**
+> The post starts here...
 
 
 ![suicide - comic](/images/posts/awmstrips/suicide.png)
@@ -22,7 +22,7 @@ You can also contact the following [hotlines](http://www.suicide.org/suicide-hot
 I think every person has thought at least one time about committing suicide. 
 Reasons and opinions differ from person to person.
 
-**<center>But I want to share my case...</center>**
+> But I want to share my case...
 
 As a kid and teenager, I had suicidal thoughts. I never really tried to commit suicide. But the thoughts were there.
 
@@ -30,7 +30,7 @@ Back then, I looked at suicide as a way to stop my emotional pain. And I wanted 
 
 However, 
 
-**<center>Now it's DIFFERENT.</center>**
+> Now it's DIFFERENT.
 
 I still want to commit suicide. But not because I'm suffering. 
 **I enjoy my life**. 
@@ -39,7 +39,7 @@ I smile every day. I love myself. I'm healthy. I'm always learning. My heart is 
 
 So,
 
-**<center>Why do I want to commit suicide then?</center>**
+> Why do I want to commit suicide then?
 
 The short answer is...**Freedom**.
 
