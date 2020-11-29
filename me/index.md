@@ -9,8 +9,7 @@ My name is Daniel. I'm just a guy who wants to share something and thinks that h
 
 Here I share with you some thoughts and stories.
 
-If you are ready. 
-All you have to do is start reading my last [post]({% for post in site.categories.randomthought limit: 1%}{{ post.url }}   {% endfor %}).
+You can start here! [Last post]({% for post in site.categories.randomthought limit: 1%}{{ post.url }}   {% endfor %}).
 
 
 Enjoy this day! 
