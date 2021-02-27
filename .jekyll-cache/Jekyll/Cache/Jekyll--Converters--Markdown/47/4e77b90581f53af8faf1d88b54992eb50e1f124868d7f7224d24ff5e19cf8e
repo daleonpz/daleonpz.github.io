@@ -1,0 +1,11 @@
+I"<p>New bibtex</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@book{2021-02-27-15031614434613.md    ,
+    author  =   {AuthorA},
+    title   =   {titelB},
+    page    =   {159},
+    year    =   {2018}
+}
+</code></pre></div></div>
+
+:ET

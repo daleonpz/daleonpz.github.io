@@ -1,79 +1,62 @@
-# Site
-title:             
-bio:               "Parkour guy, traveler, couchpotato" 
-        #'Minimal, one column jekyll theme.'
-description:       "My name is Daniel and this is my blog "
-        #"Moon is a minimal, one column jekyll theme for your blog."
-reading_time:       true
-words_per_minute:   200
-#logo:               'assets/img/logo.png'
-logo:               'assets/img/2.jpg'
-#background:         'assets/img/placeholder-big.jpg'
-background:         'assets/img/background2.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-#url:                https://daleonpz.github.io
-url:                https://myparkourjournal.com
+site: Zettelkasten
+url: https://daleonpz.github.io/
+title: Zettelkasten 
+description: Simple Zettelkasten 
+twitter:
+  username: #yourusername
+  card: summary
+  creator: #yourusername
+author:
+  twitter: #yourusername
+  name: #yourusername
+  avatar:
+  email: #youremail
+  url: #yoururl
+permalink: pretty
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
+baseurl: ""
+
+highlighter: rouge 
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
 sass:
-  sass_dir:         _sass
-  style:            compressed
+  sass_dir:          _sass
+  style:            :compressed
 
-# Comments
-#disqus_shortname:   taylantatli
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
 
-# Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-instagram:          daleonpzinst
-youtube:           daleonpz
-email:              daleonpz@gmail.com
-#twitter:            username
-#facebook:           username
-#github:             daleonpz
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-#lastfm:            username
-#tumblr:            username
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
-
-jekyll-mentions:
-    base_url: https://github.com
-
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year-:month-:day-:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

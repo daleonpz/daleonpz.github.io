@@ -1,7 +1,9 @@
-# Site navigation links
-
-#- title: Projects
-#  url: /projects/
-
-#- title: Photography
-#  url: /photography/
+links:
+- title: Zettelkasten 
+  url: /
+- title: About
+  url: /about
+- title: Search
+  url: /search
+- title: Rss
+  url: /atom.xml
