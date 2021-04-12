@@ -1,3 +1,9 @@
+---
+layout: post
+title: Why I don't care about Corona 
+category: randomthought
+description: corona, discussions
+---
 
 
 I don't care about the discussions about corona. 
