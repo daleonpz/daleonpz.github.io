@@ -3,32 +3,32 @@ title: Daniel Paredes's CV
 ---
 
 # Daniel Paredes
-Software Engineer 
+Currently, I'm a Senior Software Engineer at [Q-Beyond](https://www.qbeyond.de/), based in Cologne.
 
-<div id="webaddress">
-<a href="mailto:daniel@baremetallics.com">daniel@baremetallics.com</a>
-|
-<i class="fa fa-github"></i> <a href="http://github.com/daleonpz">daleonpz</a>
-</div>
-\
-&nbsp;
-I'm a Senior Software Engineer at [Q-Beyond](https://www.qbeyond.de/), based in Cologne, GE with huge interest in AI. 
+* <a href="mailto:daniel@baremetallics.com">daniel@baremetallics.com</a>
+* <a href="https://www.linkedin.com/in/daniel-paredes-2522b91a7/">LinkedIn</a>
 
-r--
-# On my freetime currently working on
-- I'm developing TinyML applications for STM32F746G and ESP32-EYE. Exploring tensorflow lite/micro, Cube-AI from ST Microelectronics and low-power video/audio/autoencoders applications.
-- I'm assiting a start-up with their AI application in pytorch, I'm also learning the framework during the process. 
-- I'm learning about business and entrepeneurship using as reference the ["Core Curriculum"](https://hbsp.harvard.edu/core-curriculum/) and Business Cases of Harvard Business Publishing. 
-- Still improving my german. Currently between B2-C1. Ich spreche bei der Arbeit and mit meiner Freunde Deutsch, d.H das gilt in 95% der Zeit. Daher würde ich sagen, dass mein Deutsch fachlich kompetent ist. 
+
+# On my freetime
+- I'm learning about business management and entrepreneurship using as reference the ["Core Curriculum"](https://hbsp.harvard.edu/core-curriculum/), Business Cases of Harvard Business Publishing and ["Harvard ManageMentor"](https://hbr.org/harvardmanagementor). Among the skills that I am learning and deepening are the following: Finances, Accounting, Strategy Thinking and Planning, Negotiation and Team management.
+- I'm assisting part-time a start-up with their AI application.
+- I'm still improving my German. I'm urrently between B2-C1. Ich spreche bei der Arbeit and mit meiner Freunde Deutsch, d.H das gilt in 95% der Zeit. Daher würde ich sagen, dass mein Deutsch fachlich kompetent ist.
+
+
+---
+# Experience leading teams
+`2020`: Al fondo a la derecha podcast. I started and lead this project for 1 year with some friends from the USA and Peru. We talked about practical tips based on finances, social psychology and marketing. We stopped the project because we realized that we were not having fun. I learned how to work with a global team, set tasks to run independently and delegate responsibilities.
+
+`2015-2017`: InnerMovement Parkour Group. I started this project with a friend of mine but we ended up being 4. I was in charge of our marketing campaign with included but video and photo shooting, and social media management. And also business development, the main strategy was creating a solid and loyal community through workshops and guided trainings, and leveraging that to promote our paid events  and sell our clothing collection ["XXL clothing"](https://www.facebook.com/prendasxxl). I learned a lot about budgeting, product development, sales and marketing.
 
 ---
 # Employment
 `2020-` 
 __Qbeyond AG__ Senior Software Engineer  
-__Tools__: Git, CI/CD, Docker, Embeded Linux, Python, C, Test-Driven Development, Bulding systems (CMake, Make, Rake), Ruby, Python, Bash.  
+__Tools__: Git, CI/CD, Docker, Embedded Linux, Python, C, Test-Driven Development, Building systems (CMake, Make, Rake), Ruby, Python, Bash.  
 **Tasks:**  
-- Development of features for home automation devices. Linux based gateways with wifi (through MQTT) and radio (823 MHz) connectivity and end-point devices based on STM32 M0 with radio (823 MHz) connectivity. In charge also of the maintenance of radio protocol repository. Development with Keil and Gitlab-CI.
-- Development of a debugging tool for a Propetary Android Device based on a Rockchip processor with disable Android Debug Bridge. Used Binary Walk and Bash to read the raw flash memory; search, extract and mount the Linux F2FS filesystem; extract relevant databases and csv files, and show them in the terminal.  
+- Development of features for home automation devices. Linux based gateways with Wi-Fi (through MQTT) and radio (823 MHz) connectivity and end-point devices based on STM32 M0 with radio (823 MHz) connectivity. Also in charge of the maintenance of radio protocol repository. Development with Keil and Gitlab-CI.
+- Development of a debugging tool for a Proprietary Android Device based on a Rockchip processor with disable Android Debug Bridge. Used Binary Walk and Bash to read the raw flash memory; search, extract and mount the Linux F2FS file system; extract relevant databases and csv files, and show them in the terminal.  
 - Development of a POC (proof of concept) with the MSP430 microcontroller from TI, a LPWA module from Quectel and 2G in C. Developed a interface between a pump (UART) and Cloud (MQTT).
 - Development of small test gateway based on a DA1468X Dialog MCU for communication between devices based on DA1468X and Cloud (REST). The development involved Python and C.
 - Worked in the development of a industrial gateway using Python based Embedded Linux and the Teamviewer API. 
@@ -45,7 +45,7 @@ __IDiaL Institute (Dortmund, DE)__ Working student
 __Topics__: Machine Learning, Computer Vision, Embedded Linux.  
 Development was done in C++, CMake, Docker, python, Automotive Grade Linux (AGL), Raspbian, OpenCV, and Yocto.
 - Maintainer of the rover-app repository related to [Eclipse Kuksa project](https://github.com/app4mc-rover/rover-app).  
-- Development computer vision based control system for Rover (small vehicule based on RPI3) using OpenCV and C. 
+- Development computer vision based control system for Rover (small vehicle based on RPI3) using OpenCV and C. 
 - Development of the docker image for the rover-app.
 \
 &nbsp;
@@ -62,24 +62,9 @@ __Embedded Electronic Systems Research (Rouen, FR)__ Intern.
 __Topics__: Machine Learning, Computer Vision, Embedded Systimes.   
 Development was done MATLAB, C and Assembler (SIMD).
 - Development of a computer vision algorithm to remove occlusions on images and videos from omnidirectional cameras. The development was using machine learning algorithms based on Markov Random Fields in MATLAB, C and SIMD.
-- From this development two papers were published.
+- From this development, two papers were published.
 \
 &nbsp;
-
----
-# Research
-
-`2014`
-Junior Researcher on feature maching algorithms in MATLAB and C for  Principal Component Pursuit (PCP) analysis.
-
-# Publications
-
-`2013`
- Daniel Paredes, Paul Rodriguez, Nicolas Ragot, "Catadioptric Omnidirectional Image Inpainting via a Multi-Scale Approach and Image Unwrapping", IEEE International Symposium on Robotic and Sensors Environments (ROSE), (Washington, DC, EE. UU.)  pp 67--72, October, 2013. 
-
-`2013`
-Daniel Paredes, Paul Rodriguez, "Multi-scale Image Inpainting with Label Selection Based on Local Statistics", European Signal and Image Processing Conference (EUSIPCO), (Marrakesh, Morroco),  pp. 1-5, September, 2013
-
 
 ---
 # Education
@@ -90,13 +75,13 @@ __University of Applied Science and Arts Dortmund__ Master Embedded Systems for 
 `2012-2014`
 __Pontificia Universidad Catolica del Peru__ MSc. Digital Signal and Image Processing. Patter Recognition, Machine Learning, Parallel Computing.
 
-`2016-2011`
+`2006-2011`
 __Pontificia Universidad Catolica del Peru__ BSc. Electronic engineering.
 
 ---
 # Projects 
 `2017 (April - August)`
-[XXL clothing](https://www.facebook.com/prendasxxl).  Small fashion business for Urban sports I had with a friend of mine. I was really fun, we started with 33 USD as initial investment and we made 2400 USD in net profit in 3 months, before we stopped with it. I had to move to Germany. 
+[XXL clothing](https://www.facebook.com/prendasxxl). Small urban sports fashion business I had with a friend of mine. It was a lot of fun, we started with 33 USD as initial investment and made 2400 USD net profit in 3 months, before I quit, because I had to move to Germany.
 
 `2017-`
 [awmstrips.com](https://awmstrips.com/). Personal blog. 
@@ -105,49 +90,9 @@ __Pontificia Universidad Catolica del Peru__ BSc. Electronic engineering.
 [Baremetallics.com](https://baremetallics.com/). Embedded systems related blog.
 
 `2020`
-[Al fondo a la derecha podcast](https://alfondoaladerecha.fm/). Recently I started working on this proyect with some friends from USA and Peru. We talk about practical tips based on finances, social psychology and marketing. 
-
-
----
-# Technical skills
-
-* C, C++, SIMD
-* Docker
-* CMake, Make, Rake
-* Bash
-* Git, CI/CD, Test-Driven Development
-* Python, Ruby
-* JS, HTML and CSS
-* LaTeX
-* UNIX
-
-# Areas of expertise
-
-* Embedded Systems
-* Machine learning
-* Data visualisation
-* Software development
-* Parallel Computing
-
-# Hobbies
-
-* Filmmaking/ Photography
-* Parkour
-* Harmonica
-
-# Languages
-
-* Spanish 
-* English
-* German
-
-# Links
-
-<!-- fa are fontawesome, ai are academicons -->
-* <i class="fa fa-envelope"></i> <a href="mailto:daniel@baremetallics.com">daniel@baremetallics.com</a><br />
-* <i class="fa fa-github"></i> <a href="http://github.com/daleonpz">Github</a><br />
-* <i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/daniel-paredes-2522b91a7/">LinkedIn</a>
+[Al fondo a la derecha podcast](https://alfondoaladerecha.fm/). I  started and lead this project for 1 year with some friends from the USA and Peru. We talked about practical tips based on finances, social psychology and marketing. 
 
 # References
 
 Available on request.
+
