@@ -6,20 +6,27 @@ title: Daniel Paredes's CV
 Currently, I'm a Senior Software Engineer at [Q-Beyond](https://www.qbeyond.de/), based in Cologne.
 
 * <a href="mailto:daniel@baremetallics.com">daniel@baremetallics.com</a>
-* <a href="https://www.linkedin.com/in/daniel-paredes-2522b91a7/">LinkedIn</a>
+* <a href="https://www.linkedin.com/in/daniel-paredes-2522b91a7/">https://www.linkedin.com/in/daleonpz/</a>
 
 
 # On my freetime
-- I'm learning about business management and entrepreneurship using as reference the ["Core Curriculum"](https://hbsp.harvard.edu/core-curriculum/), Business Cases of Harvard Business Publishing and ["Harvard ManageMentor"](https://hbr.org/harvardmanagementor). Among the skills that I am learning and deepening are the following: Finances, Accounting, Strategy Thinking and Planning, Negotiation and Team management.
-- I'm assisting part-time a start-up with their AI application.
-- I'm still improving my German. I'm urrently between B2-C1. Ich spreche bei der Arbeit and mit meiner Freunde Deutsch, d.H das gilt in 95% der Zeit. Daher würde ich sagen, dass mein Deutsch fachlich kompetent ist.
-
+- I’m developing TinyML applications for STM32F746G and ESP32-EYE using tensorﬂow lite/micro and Cube-AI from ST Microelectronics for low-power video/audio/autoencoders applications.
+- I’m assiting part-time a start-up with their AI application in pytorch while also learning the framework.
+- I'm learning about business management and entrepreneurship using as reference the ["Core Curriculum"](https://hbsp.harvard.edu/core-curriculum/), Business Cases of Harvard Business Publishing and ["Harvard ManageMentor"](https://hbr.org/harvardmanagementor).
 
 ---
-# Experience leading teams
-`2020`: Al fondo a la derecha podcast. I started and lead this project for 1 year with some friends from the USA and Peru. We talked about practical tips based on finances, social psychology and marketing. We stopped the project because we realized that we were not having fun. I learned how to work with a global team, set tasks to run independently and delegate responsibilities.
+# Research
 
-`2015-2017`: InnerMovement Parkour Group. I started this project with a friend of mine but we ended up being 4. I was in charge of our marketing campaign with included but video and photo shooting, and social media management. And also business development, the main strategy was creating a solid and loyal community through workshops and guided trainings, and leveraging that to promote our paid events  and sell our clothing collection ["XXL clothing"](https://www.facebook.com/prendasxxl). I learned a lot about budgeting, product development, sales and marketing.
+`2014`
+Junior Researcher on feature maching algorithms in MATLAB and C for  Principal Component Pursuit (PCP) analysis.
+
+# Publications
+
+`2013`
+ Daniel Paredes, Paul Rodriguez, Nicolas Ragot, "Catadioptric Omnidirectional Image Inpainting via a Multi-Scale Approach and Image Unwrapping", IEEE International Symposium on Robotic and Sensors Environments (ROSE), (Washington, DC, EE. UU.)  pp 67--72, October, 2013. 
+
+`2013`
+Daniel Paredes, Paul Rodriguez, "Multi-scale Image Inpainting with Label Selection Based on Local Statistics", European Signal and Image Processing Conference (EUSIPCO), (Marrakesh, Morroco),  pp. 1-5, September, 2013
 
 ---
 # Employment
