@@ -70,7 +70,7 @@ __Werkzeuge/Fähigkeiten__: Git, CI/CD, Docker, Embedded Linux, Python, C, Test-
 __IDiaL Institute (Dortmund, DE)__ Werkstudent  
 __Werkzeuge/Fähigkeiten__: Machine Learning, Computer Vision, Embedded Linux.  
 - Maintainer des rover-app Repository im Zusammenhang mit dem [Eclipse Kuksa Projekt.](https://github.com/app4mc-rover/rover-app).
-- Entwicklung eines auf Computer Vision basierenden Steuerungssystems für Rover (ein kleines Fahrzeug auf Basis von RPI3) unter Verwendung von OpenCV und C.
+- Entwicklung eines auf Computer Vision basierenden Steuerungssystems für Rover (ein kleines Fahrzeug auf Basis von RPI3) unter Verwendung von OpenCV und C. [Code](https://github.com/app4mc-rover/rover-app/blob/5b9b3715d33f3e6912ed89745b7312b82735ce85/src/examples/MarkerChaser.cpp).
 Entwicklung des Docker-Images für die Rover-App.
 \
 &nbsp;
@@ -92,7 +92,7 @@ __Werkzeuge/Fähigkeiten__: Machine Learning, Computer Vision, MATLAB
 `2013` 
 __Embedded Electronic Systems Research (Rouen, FR)__ Praktikant.  
 __Werkzeuge/Fähigkeiten__: Machine Learning, Computer Vision, Embedded Systems, MATLAB, C, Assembler(SIMD)   
-- Entwicklung eines Computer-Vision-Algorithmus zur Entfernung von Verdeckungen auf Bildern und Videos von omnidirektionalen Kameras. Die Entwicklung erfolgte unter Verwendung von Algorithmen für maschinelles Lernen auf der Grundlage von Markov Random Fields in MATLAB, C und SIMD.
+- Entwicklung eines Computer-Vision-Algorithmus zur Entfernung von Verdeckungen auf Bildern und Videos von omnidirektionalen Kameras. Die Entwicklung erfolgte unter Verwendung von Algorithmen für maschinelles Lernen auf der Grundlage von Markov Random Fields in MATLAB, C und SIMD.[Code](https://github.com/daleonpz/Projects/tree/master/mex/sumSquaredDifferences).
 - Aus dieser Entwicklung wurden zwei Publikationen veröffentlicht.
 \
 &nbsp;

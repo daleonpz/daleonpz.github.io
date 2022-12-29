@@ -76,7 +76,7 @@ __IDiaL Institute (Dortmund, DE)__ Working student
 __Topics__: Machine Learning, Computer Vision, Embedded Linux.  
 Development was done in C++, CMake, Docker, python, Automotive Grade Linux (AGL), Raspbian, OpenCV, and Yocto.
 - Maintainer of the rover-app repository related to [Eclipse Kuksa project](https://github.com/app4mc-rover/rover-app).  
-- Development computer vision-based control system for Rover (a small vehicle based on RPI3) using OpenCV and C. 
+- Development computer vision-based control system for Rover (a small vehicle based on RPI3) using OpenCV and C. [Code](https://github.com/app4mc-rover/rover-app/blob/5b9b3715d33f3e6912ed89745b7312b82735ce85/src/examples/MarkerChaser.cpp).
 - Development of the docker image for the rover app.
 \
 &nbsp;
@@ -100,7 +100,7 @@ Development was done in MATLAB.
 __Embedded Electronic Systems Research (Rouen, FR)__ Intern.  
 __Topics__: Machine Learning, Computer Vision, Embedded Systems.   
 Development was done in MATLAB, C, and Assembler (SIMD).
-- Development of a computer vision algorithm to remove occlusions on images and videos from omnidirectional cameras. The development was using machine learning algorithms based on Markov Random Fields in MATLAB, C, and SIMD.
+- Development of a computer vision algorithm to remove occlusions on images and videos from omnidirectional cameras. The development was using machine learning algorithms based on Markov Random Fields in MATLAB, C, and SIMD. [Code](https://github.com/daleonpz/Projects/tree/master/mex/sumSquaredDifferences).
 - From this development, two papers were published.
 \
 &nbsp;
