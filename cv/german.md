@@ -5,15 +5,12 @@ description: cv
 ---
 
 # Daniel Paredes
-Derzeit bin ich Senior Software Engineer bei [Q-Beyond](https://www.qbeyond.de/) in Köln.
+Embedded Machine Learning Engineer
 
 * <a href="mailto:daleonpz@gmail.com">daleonpz@gmail.com</a>
 * <a href="https://www.linkedin.com/in/daniel-paredes-2522b91a7/">https://www.linkedin.com/in/daleonpz/</a>
 * <a href="http://github.com/daleonpz">Github</a>
 
-I like to figure out how technology can be used to make life better. That's the reason I'm constantly learning from different and unrelated fields, developing theories,  thinking, and debating ideas. However, I also see data and numbers as the best, and sometimes the only way, to figure out business solutions. 
-
-In my free time, when I'm not jumping around doing parkour, I'm learning about business analysis and strategy and developing machine learning applications.
 
 ---
 # Bildung 
@@ -50,28 +47,31 @@ Auf Anfrage erhältlich.
 ---
 # Berufserfahrung 
 `2020-` 
-__Qbeyond AG (Cologne, DE)__ Senior Software Engineer  
+__Qbeyond AG - IIoT/IoT Dienstleister (Cologne, DE)__ Senior Software Engineer  
 __Werkzeuge/Fähigkeiten__: Git, CI/CD, Docker, Embedded Linux, Python, C, Test-Driven Development, Building systems (CMake, Make, Rake), Ruby, Python, Bash.  
 **Aufgaben:**  
-- Entwicklung von Funktionen für Home Automation Geräte. Linux-basierte Gateways mit Wi-Fi (über MQTT) und Funk (823 MHz) Konnektivität und Endpunktgeräte auf Basis von STM32 M0 mit Funk (823 MHz) Konnektivität. Außerdem verantwortlich für die Erweiterung und Pflege des Funkprotokoll-Repositorys.
+- Entwicklung der Repeater-Funktion in C für linuxbasierte Gateways mit Wi-Fi (über MQTT) und Funk (823 MHz) Konnektivität.
+- Entwicklung der Gateway-Testeinheit für die folgenden Funktionen: Adress-Whitelisting, interne Warteschlange, Funkkommunikationsprotokoll, Verwaltungseinheit der Firmware-Images, die über die Luft an die Geräte verteilt werden sollen, die mit dem Gateway verbunden sind.
+- Umsetzung der Continuous-Integration-/ Continuous-Development-Umgebung für linuxbasierte Gateways auf gitlab-ci/cd. Die Pipelines umfassen die Test-, Build- und Deployment-Einheit.
 - Entwicklung eines Debugging-Tools für ein proprietäres Android-Gerät auf Basis eines Rockchip-Prozessors mit deaktivierter Android Debug Bridge. Verwendung von Binary Walk und Bash zum Auslesen des rohen Flash-Speichers; Suchen, Herausfiltern und Einbinden des Linux F2FS-Dateisystems; Auslesen relevanter Datenbanken und CSV-Dateien.
-- Entwicklung eines POC (Proof of Concept) mit dem MSP430-Mikrocontroller von TI, einem LPWA-Modul von Quectel und 2G in C mit UART und MQTT für die Kommunikation.
-- Entwicklung eines Test-Gateways auf der Basis einer DA1468X Dialog MCU für die Kommunikation zwischen Geräten auf der Basis von DA1468X und Cloud (REST).  Die Entwicklung wurde mit Python und C umgesetzt.
-- Zusammenarbeit bei der Entwicklung eines industriellen Gateways unter Verwendung von Python, Embedded Linux und der Teamviewer API.
+- Entwicklung eines Proof of Concept (POC) für einen Kunden aus der IIOT-Branche mit einem MSP430-Mikrocontroller von TI, einem LPWA-Modul von Quectel und 2G in C. Entwicklung einer Schnittstelle zwischen einer Pumpe (UART) und der Cloud (MQTT) unter Verwendung von AT-Befehlen.
+- Entwicklung eines Gateways auf Basis eines DA1468X Dialog-Mikrocontrollers zur Kommunikation zwischen anderen DA1468X-Mikrocontrollern und der Cloud (REST API).
 - Verantwortlich für das Schreiben der Code-Richtlinien für C, das Dockerisieren der Toolchain für MPS430 und Dialog MCUs und das C-Test-Framework.
 - Verantwortlich für die Automatisierung der Code-Qualitätssicherung mit Docker. Überprüfung, ob der Code unseren Code-Richtlinien entspricht. Kontrolle der Komplexität des Codes. Überprüfung des Codes mit statischen Analysetools. Die Entwicklung wurde hauptsächlich in Bash, Docker und Gitlab CI/CD durchgeführt.
-- Entwicklung von Tests für Industrie-Gateways, die das BACnet-Protokoll verwendet. Die Entwicklung erfolgte in Javascript und Bash.
+- Entwicklung eines Testskripts für industrielle Gateways, die das BACnet-Protokoll verwenden. Das Skript sendet Befehle über eine Javascript-basierte Schnittstelle und verarbeitet die Ausgabe mit der Bash-Sprache.
 - Entwicklung des Build-Systems für industrielle Gateways mit Gitlab CI/CD.
-- Erweiterung der Industrie-Gateways für die Home Automation Industrie. Die verwendeten Technologien waren Websockets, das Bacnet-Protokoll und MQTT. 
 \
 &nbsp;
 
 `2018-2019`
-__IDiaL Institute (Dortmund, DE)__ Werkstudent  
+__IDiaL Institute  (Dortmund, DE)__ Werkstudent  
+__Schwerpunkt der Forschung ist die Echtzeitlokalisierung (RTLS) von mobilen Systemen mit Funktechnologien__  
 __Werkzeuge/Fähigkeiten__: Machine Learning, Computer Vision, Embedded Linux.  
-- Maintainer des rover-app Repository im Zusammenhang mit dem [Eclipse Kuksa Projekt.](https://github.com/app4mc-rover/rover-app).
-- Entwicklung eines auf Computer Vision basierenden Steuerungssystems für Rover (ein kleines Fahrzeug auf Basis von RPI3) unter Verwendung von OpenCV und C. [Code](https://github.com/app4mc-rover/rover-app/blob/5b9b3715d33f3e6912ed89745b7312b82735ce85/src/examples/MarkerChaser.cpp).
-Entwicklung des Docker-Images für die Rover-App.
+**Aufgaben:**  
+- Entwicklung eines positionsbasierten visuellen Servosystems (PBVS) für Rover (ein auf RPI3 basierendes Fahrzeug) mit OpenCV und C.. Der PBVS-Algorithmus verwendet die Bildverarbeitungsbibliothek (OpenCV), um die Rotationsmatrix und den Translationsvektor der zu verfolgenden Markierung zu errechnen und die Geschwindigkeit abzuschätzen, die notwendig ist, um die Markierung zu verfolgen. Je näher die Markierung, desto langsamer bewegt sich der Rover. [Code](https://github.com/app4mc-rover/rover-app/blob/master/src/examples/MarkerChaser.cpp)  
+- Die Entwicklung erfolgte in C++, CMake, Docker, Python, Automotive Grade Linux (AGL), Raspbian, OpenCV und Yocto.  
+-  Entwicklung eines Docker-Images für die Entwicklungsumgebung zur Vereinfachung des technischen Workflows.  
+- Maintainer des rover-app Repository im Zusammenhang mit dem [Eclipse Kuksa Projekt.](https://github.com/app4mc-rover/rover-app)
 \
 &nbsp;
 
@@ -85,7 +85,7 @@ __Wolfram (Peru/USA)__  Forschungsentwickler
 `2014`
 __Pontificia Universidad Catolica del Peru (Peru):__ Junior Researcher  
 __Werkzeuge/Fähigkeiten__: Machine Learning, Computer Vision, MATLAB  
-- Entwicklung von Feature-Matching-Algorithmen auf der Grundlage linearer Optimierung für Computer-Vision-Anwendungen
+- Entwicklung von Feature-Matching-Algorithmen auf der Grundlage der linearen Optimierung für Computer-Vision-Anwendungen. Der Feature-Matching-Algorithmus wurde als spärliche Korrelationsmatrix modelliert. Die Verlustfunktion war eine Kombination aus Norm-2 und Norm-1. Der Code wurde in MATLAB erstellt.
 \
 &nbsp;
 
@@ -100,6 +100,13 @@ __Werkzeuge/Fähigkeiten__: Machine Learning, Computer Vision, Embedded Systems,
 
 ---
 # Projekte 
+`2022`
+- Ziel dieses Projekts war es, ein neuronales Netzwerk mit 1000 Messungen für die Erkennung von Vokalen auf der Grundlage von IMU-Messungen (Inertial Movement Unit) zu trainieren und es auf dem Entwicklungsboard STEVAL-STWINKT1 von STM32 umzusetzen.
+- Ich habe PyTorch 1.10.2 verwendet, um das neuronale Netzwerk zu trainieren und zu evaluieren, das ONNX-Framework von PyTorch, um den Lernalgorithmus zu exportieren und CUBE-AI 7.1.0, um es auf einem STM32L4-Mikrocontroller umzusetzen. 
+- Das neuronale Netz basiert auf zwei Schichten von Convolutional Neural Networks (CNN), einer Global Average Pooling-Schicht und einer Fully Connected-Schicht. Die Aktivierungsfunktion war Softmax und die Verlustfunktion war Kreuzentropie. Das Modell hat eine Größe von 13 KB und eine Genauigkeit von 85 % bei der Test Set.
+- Eine vollständige Beschreibung des Projekts finden Sie unter dem folgenden Link: [https://github.com/daleonpz/stwin_AI_vowel_recognition](https://github.com/daleonpz/stwin_AI_vowel_recognition).
+
+
 `2016-2017`
 [XXL clothing](https://www.facebook.com/prendasxxl). 
 - Urban Sports Fashion Business, das ich zusammen mit einem Freund hatte. Ich habe es aufgegeben, weil ich nach Deutschland umziehen musste. Es hat viel Spaß gemacht, wir haben mit fast keinem Kapital angefangen und ich habe genug verdient, um mein Flugticket nach Deutschland zu bezahlen und meine Ausgaben für ein paar Monate zu finanzieren.
