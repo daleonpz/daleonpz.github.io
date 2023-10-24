@@ -2,9 +2,9 @@
 permalink: /blog/:title
 
 # My variables
-name: AWM strips
+name: A blog
 description: Comics about life, society and me. 
-url: https://awmstrips.com
+url: https://daleonpz.github.io
 locale: en-US
 google_verification: null
 
